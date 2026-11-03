@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HamTube</title>
+<meta name="description" content="The amateur radio videos that hams keep telling each other to watch.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c8102e'/%3E%3Cpath d='M9 8v16M9 16h14M23 8v16' stroke='white' stroke-width='3.5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/" aria-label="HamTube home"><span class="brand-mark">H</span><span>Ham<b>Tube</b></span></a>
+  <form class="search" id="searchForm" role="search">
+    <input id="q" type="search" placeholder="Search titles, channels, topics…" autocomplete="off" aria-label="Search">
+  </form>
+  <nav class="nav">
+    <a href="#/" data-nav="home">Home</a>
+    <a href="#/start" data-nav="start">Start Here</a>
+    <a href="#/about" data-nav="about">About</a>
+  </nav>
+</header>
+<main id="view" class="view" aria-live="polite">
+  <p class="loading">Loading catalog…</p>
+</main>
+<footer class="foot">
+  <span id="footStats"></span>
+  <span>Data from <a href="https://hackertube.org/data" rel="noopener">HackerTube</a> (ODC-By 1.0), Hacker News, Reddit, RTL-SDR.com and Hackaday. Videos play from YouTube.</span>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

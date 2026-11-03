@@ -1,0 +1,8 @@
+anthropic>=2.3
+requests>=2.32
+python-dotenv>=1.0
+# optional, only for the Hacker News archive source (02_collect.py --sources hn)
+# pyarrow>=17
+# huggingface_hub>=0.25
+# optional, only for compressed Reddit archive dumps (--reddit-archive with .zst files)
+# zstandard>=0.23

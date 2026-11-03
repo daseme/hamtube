@@ -1,0 +1,8 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+# stage outputs stay local; only the final catalog ships (in docs/)
+data/*
+!data/.gitkeep

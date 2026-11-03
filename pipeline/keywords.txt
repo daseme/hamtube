@@ -1,0 +1,85 @@
+# Keyword list for finding radio videos in general-topic sources.
+# Matched as whole words, case-insensitive, except short all-caps terms
+# (VHF, UHF, CW, QRP, APRS, SDR) which stay case-sensitive. A space in a
+# phrase also matches a hyphen.
+#
+# [strong] terms are unambiguous: a match anywhere (video metadata or a comment)
+# marks the video as radio-related.
+# [weak] terms are only trusted when they appear in the video's own title,
+# summary or tags, because in comments they collide with other meanings
+# (HF = Hugging Face, antenna = WiFi, ham = food).
+
+[strong]
+ham radio
+amateur radio
+amateur radio operator
+software defined radio
+RTL-SDR
+RTLSDR
+HackRF
+LimeSDR
+GNU Radio
+GNURadio
+shortwave
+Meshtastic
+APRS
+Morse code
+Technician license
+Technician class
+General class license
+Extra class license
+ham license
+ARRL
+QRP
+WSPR
+FT8
+Baofeng
+callsign
+call sign
+transceiver
+transceivers
+repeaters
+callsigns
+radio amateur
+radio amateurs
+radio enthusiast
+radio operator
+radio operators
+radio hobby
+radio hobbyist
+two way radio
+handheld radio
+radio transceiver
+radio transceivers
+radio receiver
+radio transmitter
+radio kit
+Winlink
+POTA
+SOTA
+ionosphere
+ionospheric
+repeater
+DMR
+D-STAR
+Yaesu
+Icom
+Kenwood
+NanoVNA
+tinySA
+
+[weak]
+RF
+ham
+hams
+SDR
+antenna
+antennas
+HF
+VHF
+UHF
+CW
+Morse
+LoRa
+QSO
+radio

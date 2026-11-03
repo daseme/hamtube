@@ -1,0 +1,25 @@
+{
+  "topics": [
+    {"slug": "licensing", "name": "Licensing & exams", "hint": "Technician/General/Extra exam prep, FCC rules, getting started"},
+    {"slug": "getting-started", "name": "Getting started", "hint": "first radio, first contact, what the hobby is, etiquette"},
+    {"slug": "antennas", "name": "Antennas", "hint": "dipoles, verticals, Yagis, feedline, SWR, tuners, grounding"},
+    {"slug": "hf", "name": "HF & shortwave", "hint": "HF bands, SSB, shortwave listening, HF rigs"},
+    {"slug": "vhf-uhf", "name": "VHF/UHF & handhelds", "hint": "2m/70cm, HTs, Baofeng, simplex, mobile radios"},
+    {"slug": "repeaters", "name": "Repeaters & nets", "hint": "repeater use, offsets, tones, nets, linking, DMR/Fusion/D-STAR"},
+    {"slug": "digital-modes", "name": "Digital modes", "hint": "FT8, WSPR, PSK31, RTTY, JS8, Winlink, packet"},
+    {"slug": "morse-cw", "name": "Morse & CW", "hint": "learning Morse, CW operating, keys"},
+    {"slug": "sdr", "name": "Software-defined radio", "hint": "RTL-SDR, HackRF, GNU Radio, SDR software, receiving signals"},
+    {"slug": "propagation", "name": "Propagation & RF theory", "hint": "ionosphere, skip, solar cycle, how radio waves travel, modulation basics"},
+    {"slug": "electronics", "name": "Electronics & homebrew", "hint": "building radios, kits, circuits, RF design, amplifiers, filters"},
+    {"slug": "test-equipment", "name": "Test & measurement", "hint": "NanoVNA, tinySA, oscilloscopes, SWR meters, spectrum analyzers"},
+    {"slug": "satellites", "name": "Satellites & space", "hint": "amateur satellites, ISS contacts, weather satellites, EME, GOES"},
+    {"slug": "emergency", "name": "Emergency & public service", "hint": "ARES, RACES, SKYWARN, go-kits, disaster comms, GMRS/FRS"},
+    {"slug": "mesh", "name": "Meshtastic & mesh networks", "hint": "Meshtastic, LoRa mesh, AREDN, off-grid messaging"},
+    {"slug": "aprs", "name": "APRS & tracking", "hint": "APRS, position reporting, balloons, trackers, iGates"},
+    {"slug": "portable", "name": "Portable & QRP", "hint": "POTA, SOTA, field operating, low power, battery, backpacking"},
+    {"slug": "dx-contesting", "name": "DX & contesting", "hint": "DXing, contests, logging, awards, pileups"},
+    {"slug": "equipment", "name": "Equipment & reviews", "hint": "rig reviews, comparisons, buying advice, accessories"},
+    {"slug": "history-culture", "name": "History & culture", "hint": "radio history, documentaries, famous operators, number stations"},
+    {"slug": "security-hacking", "name": "RF security & hacking", "hint": "replay attacks, reverse engineering signals, pagers, car keys, spectrum hacking"}
+  ]
+}

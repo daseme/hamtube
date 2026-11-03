@@ -1,0 +1,4072 @@
+{
+ "generated": "2026-11-02",
+ "counts": {
+  "videos": 79,
+  "mentions": 274
+ },
+ "topics": [
+  {
+   "slug": "antennas",
+   "name": "Antennas",
+   "count": 34
+  },
+  {
+   "slug": "sdr",
+   "name": "Software-defined radio",
+   "count": 26
+  },
+  {
+   "slug": "electronics",
+   "name": "Electronics & homebrew",
+   "count": 20
+  },
+  {
+   "slug": "hf",
+   "name": "HF & shortwave",
+   "count": 16
+  },
+  {
+   "slug": "vhf-uhf",
+   "name": "VHF/UHF & handhelds",
+   "count": 14
+  },
+  {
+   "slug": "getting-started",
+   "name": "Getting started",
+   "count": 14
+  },
+  {
+   "slug": "satellites",
+   "name": "Satellites & space",
+   "count": 14
+  },
+  {
+   "slug": "propagation",
+   "name": "Propagation & RF theory",
+   "count": 12
+  },
+  {
+   "slug": "equipment",
+   "name": "Equipment & reviews",
+   "count": 11
+  },
+  {
+   "slug": "mesh",
+   "name": "Meshtastic & mesh networks",
+   "count": 7
+  },
+  {
+   "slug": "portable",
+   "name": "Portable & QRP",
+   "count": 6
+  },
+  {
+   "slug": "repeaters",
+   "name": "Repeaters & nets",
+   "count": 6
+  },
+  {
+   "slug": "test-equipment",
+   "name": "Test & measurement",
+   "count": 5
+  },
+  {
+   "slug": "licensing",
+   "name": "Licensing & exams",
+   "count": 5
+  },
+  {
+   "slug": "digital-modes",
+   "name": "Digital modes",
+   "count": 4
+  },
+  {
+   "slug": "history-culture",
+   "name": "History & culture",
+   "count": 3
+  },
+  {
+   "slug": "emergency",
+   "name": "Emergency & public service",
+   "count": 3
+  },
+  {
+   "slug": "morse-cw",
+   "name": "Morse & CW",
+   "count": 1
+  },
+  {
+   "slug": "aprs",
+   "name": "APRS & tracking",
+   "count": 1
+  },
+  {
+   "slug": "security-hacking",
+   "name": "RF security & hacking",
+   "count": 1
+  }
+ ],
+ "levels": [
+  "Technician",
+  "General"
+ ],
+ "sources": [
+  {
+   "slug": "hackaday",
+   "name": "Hackaday"
+  },
+  {
+   "slug": "hn",
+   "name": "Hacker News"
+  },
+  {
+   "slug": "reddit",
+   "name": "Reddit"
+  },
+  {
+   "slug": "rtlsdr",
+   "name": "RTL-SDR.com"
+  }
+ ],
+ "start_here": [],
+ "videos": [
+  {
+   "id": "DovunOxlY1k",
+   "title": "AT&T Archives: Similiarities of Wave Behavior (Bonus Edition)",
+   "channel": "AT&T Tech Channel",
+   "duration_sec": 1683,
+   "published": "2012-04-03",
+   "summary": "A 1959 Bell Labs instructional film in which Dr. John Shive uses mechanical wave machines to demonstrate wave behavior, including reflections, standing waves, energy loss from impedance mismatch, and impedance matching. Commenters, including Technician students, say its simple physical demonstrations made impedance matching and standing waves finally click when textbooks did not.",
+   "why_watch": "Finally see what impedance matching and SWR actually mean",
+   "topics": [
+    "propagation",
+    "antennas",
+    "electronics"
+   ],
+   "level": "Technician",
+   "exam_prep": "both",
+   "score": 27.0,
+   "people": 18,
+   "mention_count": 28,
+   "first_mention": "2014-11",
+   "last_mention": "2026-07-15",
+   "sources": [
+    "hn",
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/kriz03/_/gia7myq/",
+     "date": "2021-01-06",
+     "author": "Kythera35723",
+     "label": "strong_recommendation",
+     "excerpt": "[This]([VIDEO]) is also another peerless lecture demonstrating the basics of how waves work and interact if you're having trouble understanding that concept."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1g20nu2/_/lrn5x0k/",
+     "date": "2024-10-12",
+     "author": "Capt__Bligh",
+     "label": "strong_recommendation",
+     "excerpt": "Another good source would be Army signal Corps videos, or any of the old videos from Bell Laboratories, in fact Bell Laboratories has a great video explaining standing wave ratio"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=10007959",
+     "date": "2015-08",
+     "author": "tzs",
+     "label": "strong_recommendation",
+     "excerpt": "made standing wave, reflections, energy loss due to impedance mismatch, and impedance matching much clearer than anything else I've seen"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1985fv9/_/ki8e5ob/",
+     "date": "2024-01-17",
+     "author": "c-lab21",
+     "label": "strong_recommendation",
+     "excerpt": "These two videos are some of the most helpful things I've found to help me understand the ham world so far (got my license in March)."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/mf6fnz/_/gsm7tp3/",
+     "date": "2021-03-28",
+     "author": "rem1473",
+     "label": "strong_recommendation",
+     "excerpt": "This video helped me understand impedance matching. The first time I watched it, I didn't understand all that was happening."
+    }
+   ]
+  },
+  {
+   "id": "1nHPbWPUYzk",
+   "title": "How to Make an Incredible DIY Directional Antenna for Almost Nothing",
+   "channel": "The Modern Rogue",
+   "duration_sec": 1412,
+   "published": "2021-08-19",
+   "summary": "The Modern Rogue builds a cheap tape-measure Yagi directional antenna from PVC pipe, steel tape measure elements, and a short length of coax, explaining how directional antennas work along the way. Commenters repeatedly point new hams to it as a low-cost first antenna build, a fun project to do with family, and a practical tool for fox hunting and tracking down transmitters.",
+   "why_watch": "Build a working directional antenna for about fifteen dollars",
+   "topics": [
+    "antennas",
+    "vhf-uhf",
+    "electronics"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 8.0,
+   "people": 2,
+   "mention_count": 17,
+   "first_mention": "2022-05-08",
+   "last_mention": "2026-04-25",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1js7j5p/_/mlmd75u/",
+     "date": "2025-04-05",
+     "author": "Danjeerhaus",
+     "label": "recommendation",
+     "excerpt": "This link is to kb9vbr on YouTube as he builds one. Watch the video closely. This is an omni-directional antenna."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/ukol6i/_/i7s75rz/",
+     "date": "2022-05-08",
+     "author": "Hippokranuse",
+     "label": "recommendation",
+     "excerpt": "Aaaaand here is a tape measure yagi guide by the same youtubers."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1lgjwya/_/myx3rkn/",
+     "date": "2025-06-21",
+     "author": "Danjeerhaus",
+     "label": "recommendation",
+     "excerpt": "This first one is a yagi antenna.... Directional antenna. Low cost...$10-15, maybe a little more with cable and a connector for your ht."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1pn993m/_/nu6p4vd/",
+     "date": "2025-12-15",
+     "author": "Danjeerhaus",
+     "label": "recommendation",
+     "excerpt": "I give you these two YouTube videos to involve your children."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1pu16kj/_/nvmurj2/",
+     "date": "2025-12-24",
+     "author": "Danjeerhaus",
+     "label": "recommendation",
+     "excerpt": "Here are 3 YouTube videos that might help. There are many."
+    }
+   ]
+  },
+  {
+   "id": "Vxft-rYHGDw",
+   "title": "2 Meter VHF Quarter Wave Ground Plane Antenna - Ham Radio Q&A",
+   "channel": "KB9VBR Antennas",
+   "duration_sec": 453,
+   "published": "2018-08-19",
+   "summary": "KB9VBR walks through building a simple quarter-wave ground plane antenna for the 2 meter band using an SO-239 connector, with the coax run through a PVC pipe mast. Commenters repeatedly point new hams to it as a cheap, easy first antenna build that improves on a handheld's stock antenna and shows how ordinary PVC pipe can serve as a mast.",
+   "why_watch": "Build your first 2m base antenna for about ten dollars",
+   "topics": [
+    "antennas",
+    "vhf-uhf",
+    "electronics"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 6.0,
+   "people": 2,
+   "mention_count": 10,
+   "first_mention": "2020-03-09",
+   "last_mention": "2026-05-19",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1js7j5p/_/mlmd75u/",
+     "date": "2025-04-05",
+     "author": "Danjeerhaus",
+     "label": "recommendation",
+     "excerpt": "This link is to kb9vbr on YouTube as he builds one. Watch the video closely. This is an omni-directional antenna."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/ffrmx7/_/fk0azef/",
+     "date": "2020-03-09",
+     "author": "gdusbabek",
+     "label": "recommendation",
+     "excerpt": "1/4 wavelength 2m ground plane antennas are pretty easy to build."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1lgjwya/_/myx3rkn/",
+     "date": "2025-06-21",
+     "author": "Danjeerhaus",
+     "label": "recommendation",
+     "excerpt": "This video shows another low cost antenna about $10 plus cable.....base plane, Omni directional."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1pu16kj/_/nvmurj2/",
+     "date": "2025-12-24",
+     "author": "Danjeerhaus",
+     "label": "recommendation",
+     "excerpt": "Here are 3 YouTube videos that might help. There are many."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1or39d5/_/nnnleae/",
+     "date": "2025-11-07",
+     "author": "Danjeerhaus",
+     "label": "recommendation",
+     "excerpt": "I selected this video to explain. This is kb9vbr on YouTube making a base plane antenna."
+    }
+   ]
+  },
+  {
+   "id": "xa6dqx9udcg",
+   "title": "#314: How to use the NanoVNA to sweep / measure an antenna system's SWR and optimize its tuning",
+   "channel": "w2aew",
+   "duration_sec": 367,
+   "published": "2020-06-21",
+   "summary": "Alan Wolke (W2AEW) shows in six minutes how to calibrate a NanoVNA, sweep an antenna system's SWR across a frequency range, and use the results to adjust the antenna's tuning. Commenters point new NanoVNA owners to it as the quickest way past the learning curve, noting that the SWR portion alone was enough to get them measuring with confidence.",
+   "why_watch": "Tune your own antenna with a cheap NanoVNA in minutes",
+   "topics": [
+    "test-equipment",
+    "antennas"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 5.0,
+   "people": 5,
+   "mention_count": 5,
+   "first_mention": "2023-04-05",
+   "last_mention": "2025-12-30",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1g20nu2/_/lrn5x0k/",
+     "date": "2024-10-12",
+     "author": "Capt__Bligh",
+     "label": "recommendation",
+     "excerpt": "in fact Bell Laboratories has a great video explaining standing wave ratio, something very few hams day even understand.."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1clc6z0/_/l2uy1wc/",
+     "date": "2024-05-06",
+     "author": "MihaKomar",
+     "label": "recommendation",
+     "excerpt": "there are loads and loads of good videos on YouTube that should teach you the basics (eg: [VIDEO] )"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/12csov7/_/jf43j2b/",
+     "date": "2023-04-05",
+     "author": "geo_log_88",
+     "label": "recommendation",
+     "excerpt": "This video is 6 minutes long and will instruct you in the basics."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1imx393/_/mcmuwf4/",
+     "date": "2025-02-13",
+     "author": "SoyBeanSandwich",
+     "label": "recommendation",
+     "excerpt": "this video helped me out a lot, and there's a few more antenna analysis videos on YouTube"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1pzb31x/_/nwqy3zl/",
+     "date": "2025-12-30",
+     "author": "shizoor",
+     "label": "recommendation",
+     "excerpt": "I found this youtube video most helpful. I ignored everything apart from the SWR part then saved the config."
+    }
+   ]
+  },
+  {
+   "id": "ZsIWyVzqJPM",
+   "title": "Getting Started with Meshtastic - Intro",
+   "channel": "The Comms Channel",
+   "duration_sec": 185,
+   "published": "2023-10-24",
+   "summary": "A three-minute introduction to Meshtastic, the off-grid LoRa mesh texting system, and the first episode of The Comms Channel's Getting Started playlist that goes on to cover devices, antennas, and flashing. Meshtastic newcomers on Reddit repeatedly point to it as the place to start because the series is well organized and walks beginners from what Meshtastic is to setting up their own nodes.",
+   "why_watch": "Quick, clear first look at off-grid mesh texting",
+   "topics": [
+    "mesh",
+    "getting-started"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 5.0,
+   "people": 4,
+   "mention_count": 5,
+   "first_mention": "2024-01-18",
+   "last_mention": "2025-04-02",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1hxuazf/_/m6cdj3n/",
+     "date": "2025-01-10",
+     "author": "ubermaker77",
+     "label": "recommendation",
+     "excerpt": "I'll give you a playlist that I think is in good order for learning:"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1hf2qq6/_/m28ccy2/",
+     "date": "2024-12-15",
+     "author": "Hinermad",
+     "label": "recommendation",
+     "excerpt": "I found The Comms channel on Youtube to be very informative. He has two playlists that are well organized and walk you through what Meshtasic is, how to get started"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1jpawx7/_/mkyf0cn/",
+     "date": "2025-04-02",
+     "author": "KBOXLabs",
+     "label": "recommendation",
+     "excerpt": "And I would also recommend watching The Comms Channel’s introduction on Meshtastic, on YouTube."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/199b5a6/_/kifoudh/",
+     "date": "2024-01-18",
+     "author": "oSPANNERo",
+     "label": "recommendation",
+     "excerpt": "Here are some videos that have helped me understand the technology better:"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1fgcfjo/_/ln173e6/",
+     "date": "2024-09-14",
+     "author": "KBOXLabs",
+     "label": "recommendation",
+     "excerpt": "There's also plenty of youtube videos online to help you out. Perhaps try starting out watching TheCommsChannel videos:"
+    }
+   ]
+  },
+  {
+   "id": "cjClTnZ4Xh4",
+   "title": "How to Pull Images from Satellites in Orbit (NOAA 15,18,19 and METEOR M2)",
+   "channel": "The Thought Emporium",
+   "duration_sec": 864,
+   "published": "2017-03-07",
+   "summary": "The Thought Emporium chronicles building antennas, from simple dipoles to a double cross antenna, and using an RTL-SDR to receive and decode weather images from NOAA 15, 18, 19 and Meteor M2 as they pass overhead. Commenters recommend it as a from-scratch explanation for complete novices that covers what you need, the problems you will likely hit, and how to fix them.",
+   "why_watch": "Pull real weather photos from space with a cheap SDR",
+   "topics": [
+    "satellites",
+    "sdr",
+    "antennas"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 5.0,
+   "people": 4,
+   "mention_count": 4,
+   "first_mention": "2017-03-22",
+   "last_mention": "2024-10-01",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/youtube-videos-noaa-satellite-tutorial-building-radio-telescope/",
+     "date": "2017-03-22",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "March 22, 2017 YouTube Videos: NOAA Satellite Tutorial and Building a Radio Telescope Over on the Thought Emporium YouTube channel the team have uploaded two videos that may be of interest to radio…"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/pcoocc/_/haq0re6/",
+     "date": "2021-08-28",
+     "author": "KrumpleZone",
+     "label": "recommendation",
+     "excerpt": "Here is a great [YouTube]([VIDEO]) video with what you will need, what problems you might face, and how to fix them."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/10gmx55/_/j5blbpr/",
+     "date": "2023-01-21",
+     "author": "ppoojohn",
+     "label": "recommendation",
+     "excerpt": "And you can further look on YouTube for more information here are some videos I watched"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1ftxpq1/_/lpvtquy/",
+     "date": "2024-10-01",
+     "author": "hipsterturtle02",
+     "label": "recommendation",
+     "excerpt": "I bought a nooelec SDR bundle and then went on YouTube and searched how to receive NOAAsatellite images."
+    }
+   ]
+  },
+  {
+   "id": "m48WLp76ue0",
+   "title": "Icom IC-7300 From A to Z - #1 Introduction, setting Bands & Modes & programming your own call sign",
+   "channel": "Ham Radio A2Z",
+   "duration_sec": 818,
+   "published": "2019-02-18",
+   "summary": "The first episode of a 40-plus part series on the Icom IC-7300 HF transceiver, covering an introduction to the radio, selecting bands and modes, and programming your own call sign. Owners say the bite-sized series follows the full manual so closely that they never needed to open it, and it still applies to the newer IC-7300 MK2.",
+   "why_watch": "Learn your new IC-7300 without ever opening the manual",
+   "topics": [
+    "equipment",
+    "hf"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 5.0,
+   "people": 3,
+   "mention_count": 5,
+   "first_mention": "2020-04-26",
+   "last_mention": "2026-03-21",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/ggrxxg/_/fq6uxxc/",
+     "date": "2020-05-10",
+     "author": "Jim-in-Md",
+     "label": "strong_recommendation",
+     "excerpt": "Watch the YouTube videos by \"Ham Cured Smoke, WA2IVD\". He has a series of over 40 videos on every aspect of the 7300 presented in simple bite-sized pieces. His are the best I've found."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1fymm7l/_/lqz2ynh/",
+     "date": "2024-10-08",
+     "author": "TacosAreGooder",
+     "label": "strong_recommendation",
+     "excerpt": "I have not even looked at the manual as this has been an amazing tutorial."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1s02xh7/_/obqdwfw/",
+     "date": "2026-03-21",
+     "author": "kwpg3",
+     "label": "recommendation",
+     "excerpt": "This YouTube channel has a great tutorials on the original 7300 which are going to be pretty much the same on the M2 version."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1gdlidr/_/lu38o63/",
+     "date": "2024-10-27",
+     "author": "TacosAreGooder",
+     "label": "strong_recommendation",
+     "excerpt": "Learn everything about the 7300 by YouTube video....an excellent resource. Learned a ton."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/g5sdrd/_/fonmhk9/",
+     "date": "2020-04-26",
+     "author": "Jim-in-Md",
+     "label": "recommendation",
+     "excerpt": "He walks you through all the features and capabilities of the 7300 in an order that closely follows the \"Full\" manual. Good stuff for the new 7300 users."
+    }
+   ]
+  },
+  {
+   "id": "jGWFg7EDnyY",
+   "title": "Pulling Clear Images Directly Off Satellites | GOES-15,16,17 and Himawari 8 HRIT",
+   "channel": "The Thought Emporium",
+   "duration_sec": 661,
+   "published": "2018-09-06",
+   "summary": "The Thought Emporium demonstrates receiving high-resolution HRIT imagery directly from geostationary weather satellites GOES-15, 16, 17 and Himawari 8 using an SDR, dish antenna and decoding software. Commenters say it inspired them to build their own GOES receiving setups and praise the channel's clear, high-quality presentation.",
+   "why_watch": "Pull full-disk Earth images straight from orbit yourself",
+   "topics": [
+    "satellites",
+    "sdr",
+    "antennas"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 5.0,
+   "people": 4,
+   "mention_count": 5,
+   "first_mention": "2018-09-07",
+   "last_mention": "2023-05",
+   "sources": [
+    "hn",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=18585417",
+     "date": "2018-12",
+     "author": "c0nducktr",
+     "label": "strong_recommendation",
+     "excerpt": "got inspired after watching this video"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=31141113",
+     "date": "2022-04",
+     "author": "notsound",
+     "label": "strong_recommendation",
+     "excerpt": "The Thought Emporium makes really high quality content."
+    },
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/youtube-video-demonstrates-goes-weather-satellite-reception/",
+     "date": "2018-09-07",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "September 7, 2018 YouTube Video Demonstrates GOES Weather Satellite Reception On The Thought Emporium YouTube channel a new video has been uploaded showing the full disk images of the earth that…"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=18619309",
+     "date": "2018-12",
+     "author": "jedimastert",
+     "label": "recommendation",
+     "excerpt": "A YouTube channel called The Thought Emporium has a series about using a sdr called the HackRF"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=35821006",
+     "date": "2023-05",
+     "author": "barbazoo",
+     "label": "neutral_reference",
+     "excerpt": "I was just watching [VIDEO] and I wonder if some satellites encrypt the content before sending it to earth."
+    }
+   ]
+  },
+  {
+   "id": "FjHJ7FmV0M4",
+   "title": "Richard Feynman talks about light",
+   "channel": "sdfhsfh",
+   "duration_sec": 355,
+   "published": "2007-11-02",
+   "summary": "A short 1980s PBS clip of physicist Richard Feynman explaining light as waves sloshing through the electric field, and how every point in space holds all the radio and other electromagnetic waves at once, waiting to be tuned in. Commenters recommend it as a fun, intuitive introduction to electromagnetic radiation for laypeople, including in discussions of how AM radio and VHF work.",
+   "why_watch": "Feynman makes radio waves around you feel wondrous",
+   "topics": [
+    "propagation"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 5.0,
+   "people": 4,
+   "mention_count": 6,
+   "first_mention": "2018-09",
+   "last_mention": "2025-02",
+   "sources": [
+    "hn"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=24231979",
+     "date": "2020-08",
+     "author": "RichardCA",
+     "label": "strong_recommendation",
+     "excerpt": "This is one of my favorite PBS clips from the 80's in which Richard Feynman explains how strange the nature of light"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=43134269",
+     "date": "2025-02",
+     "author": "kypro",
+     "label": "strong_recommendation",
+     "excerpt": "I highly recommend you watch this video of Feynman explaining light"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=20342099",
+     "date": "2019-07",
+     "author": "Jach",
+     "label": "recommendation",
+     "excerpt": "A favorite Feynman vid to give laymen a taste"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=30865393",
+     "date": "2022-03",
+     "author": "martyvis",
+     "label": "recommendation",
+     "excerpt": "Richard Feynman gets very excited about this very fact"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=17994808",
+     "date": "2018-09",
+     "author": "Quekid5",
+     "label": "neutral_reference",
+     "excerpt": "The vast majority of light is effectively invisible to you."
+    }
+   ]
+  },
+  {
+   "id": "wt5wZhC5crI",
+   "title": "HAM - Official Documentary (2022)",
+   "channel": "Grace Wolcott",
+   "duration_sec": 1549,
+   "published": "2023-03-14",
+   "summary": "A 25-minute 2022 documentary about amateur radio, introducing what the hobby is, the people who practice it, and the community and culture around it. Commenters repeatedly point newcomers and curious young people to it as a general introduction to ham radio before they spend money on gear, while noting it can't cover every aspect of the hobby.",
+   "why_watch": "See who hams are and why they love the hobby",
+   "topics": [
+    "history-culture",
+    "getting-started"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 4.0,
+   "people": 2,
+   "mention_count": 5,
+   "first_mention": "2023-05-28",
+   "last_mention": "2025-11-03",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/13u2v83/_/jm04b0c/",
+     "date": "2023-05-28",
+     "author": "G7VFY",
+     "label": "recommendation",
+     "excerpt": "Here is a very general video introduction to Amateur Video made quite recently:-"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1l0ey4y/_/mvd4blg/",
+     "date": "2025-06-01",
+     "author": "KNY2XB",
+     "label": "recommendation",
+     "excerpt": "Maybe through videos?"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/13y0lha/_/jnbhmfb/",
+     "date": "2023-06-07",
+     "author": "G7VFY",
+     "label": "recommendation",
+     "excerpt": "You might find this documentary useful (But it does not cover all aspects of ham radio as there is too much for a short video):-"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/18ja3jd/_/kdmpr61/",
+     "date": "2023-12-16",
+     "author": "G7VFY",
+     "label": "recommendation",
+     "excerpt": "Some videos to watch. (From youtube channels who are not just trying to sell you 'stuff'."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1onpwkn/_/nmyw7j2/",
+     "date": "2025-11-03",
+     "author": "G7VFY",
+     "label": "neutral_reference",
+     "excerpt": "This might explain, a bit. [[VIDEO]]([VIDEO])"
+    }
+   ]
+  },
+  {
+   "id": "DdzQS10JnHU",
+   "title": "Ham Radio Technician Prep Intro (2022-2026)",
+   "channel": "Ham Radio Crash Course",
+   "duration_sec": 223,
+   "published": "2023-03-13",
+   "summary": "A short introduction to Ham Radio Crash Course's Technician license exam prep series for the 2022-2026 question pool, explaining how the course is organized and suggesting a companion study book. Commenters point new learners and even parents of young prospective hams to the series, often alongside HamStudy.org practice tests, as a solid study path.",
+   "why_watch": "Your starting point for passing the Technician exam",
+   "topics": [
+    "licensing",
+    "getting-started"
+   ],
+   "level": "Technician",
+   "exam_prep": "Technician",
+   "score": 4.0,
+   "people": 4,
+   "mention_count": 4,
+   "first_mention": "2024-02-16",
+   "last_mention": "2025-10-03",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1dxm5ob/_/lc2nkbq/",
+     "date": "2024-07-07",
+     "author": "jephthai",
+     "label": "recommendation",
+     "excerpt": "You might do well to watch through some of the intro material on YouTube from guys like [Dave Casler]([LINK]) or [Josh Nass]([VIDEO]), who walk through the basics"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1nwl3v2/_/nhgqx3t/",
+     "date": "2025-10-03",
+     "author": "Party_Attitude1845",
+     "label": "recommendation",
+     "excerpt": "I'd recommend grabbing a book and going through some of the videos from some of the YouTubers."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1as77yj/_/kqphcw4/",
+     "date": "2024-02-16",
+     "author": "Separate-Luck-2168",
+     "label": "recommendation",
+     "excerpt": "Others mentioned are great, but also (in no particular order):"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1mvw0ns/_/n9tjr9y/",
+     "date": "2025-08-21",
+     "author": "Souta95",
+     "label": "recommendation",
+     "excerpt": "There's also a [set of videos]([VIDEO]) from Ham Radio Crash Course on Youtube."
+    }
+   ]
+  },
+  {
+   "id": "VM7sJrotjgs",
+   "title": "How To Build A V Dipole For Receiving Weather Satellites",
+   "channel": "Tech Minds",
+   "duration_sec": 439,
+   "published": "2020-05-31",
+   "summary": "A short build guide for a 137 MHz V-dipole made from steel rods, plastic pipe and a terminal block, mounted north-south, followed by a demonstration of tracking and decoding NOAA weather satellite images with Gpredict, SDR# and WxToImg. Newcomers recommend it as an easy, cheap first antenna project that got them their first NOAA image with an RTL-SDR.",
+   "why_watch": "Build a simple antenna and pull images from space",
+   "topics": [
+    "satellites",
+    "antennas",
+    "sdr"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 4.0,
+   "people": 3,
+   "mention_count": 3,
+   "first_mention": "2020-06-03",
+   "last_mention": "2023-01-21",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/techminds-building-a-v-dipole-for-weather-satellite-reception/",
+     "date": "2020-06-03",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "A new video showing how to build a V-dipole for weather satellite reception has been uploaded over on the Tech Minds YouTube channel."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/oy8bvn/_/h7v6mz5/",
+     "date": "2021-08-05",
+     "author": "SpartanBeryl",
+     "label": "recommendation",
+     "excerpt": "If watching YouTube tutorials is more your style, Tech Minds has some great tutorials on the subject."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/10gmx55/_/j5blbpr/",
+     "date": "2023-01-21",
+     "author": "ppoojohn",
+     "label": "recommendation",
+     "excerpt": "And you can further look on YouTube for more information here are some videos I watched"
+    }
+   ]
+  },
+  {
+   "id": "yCU0prz5As4",
+   "title": "KrakenSDR Unboxing / Prep & Setup device & antennas : Part 1",
+   "channel": "Frugal Radio",
+   "duration_sec": 676,
+   "published": "2022-09-06",
+   "summary": "Frugal Radio unboxes the KrakenSDR, a five-channel coherent RTL-SDR-based receiver, and walks through the Raspberry Pi 4 setup, SD card software install, Android app, and building a direction-finding antenna array with a printed spacer and spacing calculator. Commenters point to it as a practical, step-by-step guide for anyone wanting to set up radio direction finding, such as locating repeaters or other transmitters.",
+   "why_watch": "See how hams pinpoint where a signal is coming from",
+   "topics": [
+    "sdr",
+    "antennas",
+    "equipment"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 4.0,
+   "people": 2,
+   "mention_count": 3,
+   "first_mention": "2022-09-07",
+   "last_mention": "2025-01-06",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/frugal-radio-krakensdr-part-1-unboxing-antennas-and-initial-setup/",
+     "date": "2022-09-07",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "Over on the Frugal Radio YouTube channel Rob has uploaded part one of his two part series on the KrakenSDR."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/1huw3ci/_/m5rxp67/",
+     "date": "2025-01-06",
+     "author": "Papfox",
+     "label": "recommendation",
+     "excerpt": "Here is a two part YouTube video showing how to set up a KrakenSDR and perform the activity you seem to want:"
+    },
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/krakensdr-field-reports-and-software-updates/",
+     "date": "2022-10-25",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "In this video Frugal Radio unboxes and tests his KrakenSDR and Krakentenna's on a vehicle. He is able to come to the location of two unknown transmitters within minutes."
+    }
+   ]
+  },
+  {
+   "id": "4ciJR-hEyA8",
+   "title": "Morse Code CW in a Browser or Phone with VBand !!!",
+   "channel": "Ham Radio Duo",
+   "duration_sec": 398,
+   "published": "2024-09-10",
+   "summary": "A short walkthrough of VBand, a free website that lets you send and receive Morse code over the internet using a paddle or key plugged into a computer or phone through the VBand USB adapter. Commenters link it to CW learners as a way to practice sending and real-time QSOs before getting on the air, noting it also works from an Android phone with a cable.",
+   "why_watch": "Practice real Morse QSOs from your phone, no transmitter needed",
+   "topics": [
+    "morse-cw"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 4.0,
+   "people": 2,
+   "mention_count": 5,
+   "first_mention": "2026-04-20",
+   "last_mention": "2026-10-01",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1ur6e6h/_/oweofw7/",
+     "date": "2026-07-09",
+     "author": "geo_log_88",
+     "label": "recommendation",
+     "excerpt": "This video gives a good explanation: [VIDEO]"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1sqpgn3/_/ohaqitm/",
+     "date": "2026-04-20",
+     "author": "stfreddit7",
+     "label": "recommendation",
+     "excerpt": "People might not realize that you can access the VBand website with the VBand adapter using a Android phone or tablet and cable. See this YouTube video:"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1wlpeli/_/pbb7cw8/",
+     "date": "2026-09-22",
+     "author": "geo_log_88",
+     "label": "recommendation",
+     "excerpt": "This video gives a good explanation: [VIDEO]"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1w5tu5h/_/p7iv2mq/",
+     "date": "2026-09-03",
+     "author": "geo_log_88",
+     "label": "recommendation",
+     "excerpt": "VBand [LINK] is a great way to practice QSOs and sending if you're unable to get on the air. This video gives a good explanation: [VIDEO]"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1wudxj7/_/pd4jmyb/",
+     "date": "2026-10-01",
+     "author": "geo_log_88",
+     "label": "recommendation",
+     "excerpt": "This video gives a good explanation: [VIDEO]"
+    }
+   ]
+  },
+  {
+   "id": "JHSPRcRgmOw",
+   "title": "Radio Antenna Fundamentals   Part 1 (1947)",
+   "channel": "Gerry Trenwith",
+   "duration_sec": 1569,
+   "published": "2019-12-26",
+   "summary": "A 1947 U.S. military training film explaining how radio antennas work, covering wave radiation, resonance, impedance and how antennas couple energy into space. New hams recommend it as a trustworthy, foundational explanation that helped them understand antenna and feedline concepts while studying for and after their licenses.",
+   "why_watch": "Classic military film that makes antenna theory finally click",
+   "topics": [
+    "antennas",
+    "propagation",
+    "history-culture"
+   ],
+   "level": "Technician",
+   "exam_prep": "both",
+   "score": 4.0,
+   "people": 2,
+   "mention_count": 3,
+   "first_mention": "2024-01-17",
+   "last_mention": "2024-09-29",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1frsz2o/_/lpg529m/",
+     "date": "2024-09-29",
+     "author": "c-lab21",
+     "label": "strong_recommendation",
+     "excerpt": "Another great one that will help in this very matter is [VIDEO]"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1b1ai7v/_/ksd9sov/",
+     "date": "2024-02-27",
+     "author": "NM5RF",
+     "label": "recommendation",
+     "excerpt": "I'm still coming back to these videos to keep learning."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1985fv9/_/ki8e5ob/",
+     "date": "2024-01-17",
+     "author": "c-lab21",
+     "label": "strong_recommendation",
+     "excerpt": "These two videos are some of the most helpful things I've found to help me understand the ham world so far (got my license in March)."
+    }
+   ]
+  },
+  {
+   "id": "BmHoQrDfw-0",
+   "title": "Tape Measure Yagi Beam Antenna - Ham Radio Q&A",
+   "channel": "KB9VBR Antennas",
+   "duration_sec": 549,
+   "published": "2017-02-07",
+   "summary": "KB9VBR answers a viewer question by building a cheap directional Yagi for 2 meters from PVC pipe and steel tape measure elements, covering element layout, feedpoint connection, and use with a handheld. Hams point to it as an hour-long, roughly ten-dollar first antenna project that works well for fox hunting and for reaching distant repeaters with an HT.",
+   "why_watch": "Build a working directional antenna for about ten dollars",
+   "topics": [
+    "antennas",
+    "vhf-uhf",
+    "electronics"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 4.0,
+   "people": 3,
+   "mention_count": 7,
+   "first_mention": "2018-09-26",
+   "last_mention": "2025-06-03",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1js7j5p/_/mlmd75u/",
+     "date": "2025-04-05",
+     "author": "Danjeerhaus",
+     "label": "recommendation",
+     "excerpt": "This link is to kb9vbr on YouTube as he builds one. Watch the video closely. This is an omni-directional antenna."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1kbd08g/_/mptgcpt/",
+     "date": "2025-04-30",
+     "author": "moonie42",
+     "label": "recommendation",
+     "excerpt": "There's a number of videos on YouTube and guides on various sites. Do a little searching and you'll find a wealth of info."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/f8w0eu/_/fiy7ye2/",
+     "date": "2020-02-27",
+     "author": "Maizey23",
+     "label": "recommendation",
+     "excerpt": "Here is a link to a Youtube video showing how to build a very inexpensive directional antenna that may do the trick for you."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/9j5j1y/_/e6oyaom/",
+     "date": "2018-09-26",
+     "author": "_pissedoff",
+     "label": "neutral_reference",
+     "excerpt": "There's this one fella on YouTube who made a Yagi out of PVC and a tape measure and he could transmit to a repeater about 50 miles away with his HT?"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1hyl5ej/_/m6iqbsk/",
+     "date": "2025-01-11",
+     "author": "Danjeerhaus",
+     "label": "recommendation",
+     "excerpt": "Here are 2 YouTube videos. Same antennas. I think the second video give you an antenna calculator site to change between UHF and VHF. (Yagi)"
+    }
+   ]
+  },
+  {
+   "id": "THc5ZTxQUSg",
+   "title": "#350 NanoVNA Vector Network analyzer 900MHz VNA for $50",
+   "channel": "IMSAI Guy",
+   "duration_sec": 1279,
+   "published": "2019-08-04",
+   "summary": "IMSAI Guy unboxes and demonstrates the $50 NanoVNA, a pocket vector network analyzer covering up to 900 MHz, showing how it measures SWR, impedance and filter response. Commenters recommend it as a combined review and how-to that makes a once-expensive instrument approachable for checking homebuilt antennas.",
+   "why_watch": "Tune your own antennas with a $50 analyzer",
+   "topics": [
+    "test-equipment",
+    "antennas",
+    "equipment"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.5,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2019-08-13",
+   "last_mention": "2019-10-29",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/dogkbv/_/f5o5hyq/",
+     "date": "2019-10-29",
+     "author": "Toolaa",
+     "label": "strong_recommendation",
+     "excerpt": "Here is a great [YouTube video]([VIDEO]) which is sort of a review and instruction video all in one."
+    },
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/reviews-of-the-nanovna-an-ultra-low-cost-50-vector-network-analyzer/",
+     "date": "2019-08-13",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "It is a very useful tool to have if you are building and tuning home made antennas, filters or other RF circuits."
+    }
+   ]
+  },
+  {
+   "id": "Z6ATX2Z9ews",
+   "title": "Homebrew Buddipole with Modifications",
+   "channel": "Rockwell Schrock",
+   "duration_sec": 773,
+   "published": "2013-02-17",
+   "summary": "A walkthrough of a homemade Buddipole-style portable HF dipole built from W3FF-type plans, with modifications that let it be set up in several configurations, including a painter's-pole mast. Commenters say they copied the build for about $60–80 instead of buying a commercial Buddipole and made coast-to-coast contacts while camping and backpacking.",
+   "why_watch": "Build your own portable HF antenna for under $100",
+   "topics": [
+    "antennas",
+    "portable",
+    "hf"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.5,
+   "people": 2,
+   "mention_count": 3,
+   "first_mention": "2013-05-31",
+   "last_mention": "2017-05-06",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1fa7f5/_/ca98imo/",
+     "date": "2013-05-31",
+     "author": "cshields22",
+     "label": "strong_recommendation",
+     "excerpt": "Make your own buddipole! u/schrockwell has a [video up on youtube]([VIDEO]) of his modified buddipole. I've replicated this setup, for about $80"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/2qwx9j/_/cna9y7l/",
+     "date": "2014-12-31",
+     "author": "DiabloKing",
+     "label": "recommendation",
+     "excerpt": "Also /u/Schrockwell [Youtube video]([VIDEO]) has a few really good modifications on the Buddipole which I followed on mine"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/69gyy4/_/dh6tqh5/",
+     "date": "2017-05-06",
+     "author": "cshields22",
+     "label": "recommendation",
+     "excerpt": "To give you some more ideas, /u/Schrockwell made a [youtube video here]([VIDEO]) of a homebrew backpack homebrew buddipole."
+    }
+   ]
+  },
+  {
+   "id": "hz_mMLhUinw",
+   "title": "The Superheterodyne Radio: No really, that's its name",
+   "channel": "Technology Connections",
+   "duration_sec": 751,
+   "published": "2018-12-25",
+   "summary": "Technology Connections explains how the superheterodyne receiver works, mixing incoming signals down to a fixed intermediate frequency so a radio can be tuned cheaply and selectively. Commenters recommend it as an accessible, clear introduction to heterodyning that needs no signal-processing background.",
+   "why_watch": "Finally understand what's happening inside every radio you own",
+   "topics": [
+    "electronics",
+    "propagation",
+    "hf"
+   ],
+   "level": "General",
+   "exam_prep": "both",
+   "score": 3.5,
+   "people": 3,
+   "mention_count": 3,
+   "first_mention": "2019-08",
+   "last_mention": "2024-05",
+   "sources": [
+    "hn"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=20751319",
+     "date": "2019-08",
+     "author": "rhinoceraptor",
+     "label": "strong_recommendation",
+     "excerpt": "This video is a great explainer (and I also highly recommend every other video on the channel)"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=40496976",
+     "date": "2024-05",
+     "author": "benkuykendall",
+     "label": "recommendation",
+     "excerpt": "Definitely an accessible introduction to a neat trick in signal processing!"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=39827544",
+     "date": "2024-03",
+     "author": "wkjagt",
+     "label": "recommendation",
+     "excerpt": "This reminds me of a really cool video on superheterodyne receivers that Technology Connections did."
+    }
+   ]
+  },
+  {
+   "id": "JhAPJISUjB8",
+   "title": "#101 Balun PART 2: Balun's magic and how to wind an effective working Balun",
+   "channel": "TRX Lab",
+   "duration_sec": 3082,
+   "published": "2016-07-09",
+   "summary": "Part two of TRX Lab's balun series explains how a 1:1 current balun suppresses common mode current and walks through winding an effective one on a ferrite toroid, based on DG0SA's design. Commenters have built several of these for doublets at home and portable, praising them as reliable up to 800 W and pointing people here instead of buying commercial baluns.",
+   "why_watch": "Wind your own proven 1:1 balun for your HF antenna",
+   "topics": [
+    "antennas",
+    "electronics",
+    "hf"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 3,
+   "mention_count": 3,
+   "first_mention": "2016-11-07",
+   "last_mention": "2020-10-13",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/jafaen/_/g8p6nvk/",
+     "date": "2020-10-13",
+     "author": "Hundsheimer_Berge",
+     "label": "recommendation",
+     "excerpt": "Watch these three videos from TRX Bench on Youtube, and YOU will be the one making your own \"*really well-made, tested*\" Baluns!"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/fb3xi8/_/fj2wck4/",
+     "date": "2020-02-29",
+     "author": "tamitall",
+     "label": "recommendation",
+     "excerpt": "I think I have built 4 of them now, 2 for friends and 1 for my shack, and 1 for my portable setup."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/5bgjx8/_/d9ow4d4/",
+     "date": "2016-11-07",
+     "author": "dashangbaba",
+     "label": "recommendation",
+     "excerpt": "The 1:1 (and 4:1) balun he made uses the 43 material, but you may find it useful."
+    }
+   ]
+  },
+  {
+   "id": "hMOwbNUpDQA",
+   "title": "#112 LoRa / LoRaWAN De-Mystified / Tutorial",
+   "channel": "Andreas Spiess",
+   "duration_sec": 1225,
+   "published": "2017-01-19",
+   "summary": "Andreas Spiess explains how LoRa radio modulation and the LoRaWAN network protocol work, covering spreading factors, range, data rates and the link budget concept. Commenters point to it as a clear explanation of LoRa, especially of why its link budget lets it reach such long distances.",
+   "why_watch": "Understand the radio tech behind Meshtastic and long-range LoRa",
+   "topics": [
+    "mesh",
+    "propagation",
+    "electronics"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 4,
+   "first_mention": "2019-09",
+   "last_mention": "2024-06",
+   "sources": [
+    "hn",
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=37416608",
+     "date": "2023-09",
+     "author": "ur-whale",
+     "label": "recommendation",
+     "excerpt": "A good explanation of LoRa, and in particular of the \"link budget\" idea"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=21080312",
+     "date": "2019-09",
+     "author": "amingilani",
+     "label": "recommendation",
+     "excerpt": "a video by Andreas Spiess, a rising electronics YouTuber, that explains LoRa really well."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1bciko0/_/kuh7pm4/",
+     "date": "2024-03-12",
+     "author": "EnergyLantern",
+     "label": "neutral_reference",
+     "excerpt": "If you read the comments in Hackaday and listen to the problem of users in the Meshtasic forums, there are some shortcomings of Mestastic."
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=40773126",
+     "date": "2024-06",
+     "author": "Joel_Mckay",
+     "label": "neutral_reference",
+     "excerpt": "LoRAWAN certainly does make sense in some use-case applications."
+    }
+   ]
+  },
+  {
+   "id": "xQVm-YTKR9s",
+   "title": "#286 How does Software Defined Radio (SDR) work under the Hood? SDR Tutorial",
+   "channel": "Andreas Spiess",
+   "duration_sec": 1640,
+   "published": "2019-09-08",
+   "summary": "Andreas Spiess explains how software defined radio works, starting with analog receiver building blocks like mixers, oscillators, filters and demodulators, then moving to ADCs, IQ sampling, popular SDR hardware such as RTL-SDR, HackRF, SDRplay, LimeSDR and PlutoSDR, and software including GNU Radio Companion. Commenters recommend it as an entertaining, from-the-beginning introduction that even a high school student can use to get into SDR.",
+   "why_watch": "Finally understand what's happening inside your SDR dongle",
+   "topics": [
+    "sdr",
+    "propagation",
+    "electronics"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2019-09-09",
+   "last_mention": "2020-04-08",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/andreas-spiess-explains-software-defined-radio-in-youtube-video/",
+     "date": "2019-09-09",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "The video is an entertaining introduction to how software defined radio works and begins from the beginning by explaining how basic analogue radios work"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/fwzbru/_/fmrlsky/",
+     "date": "2020-04-08",
+     "author": "Zorgen_Borgen",
+     "label": "recommendation",
+     "excerpt": "I'd recommend [SignalsEverywhere]([LINK]) and [Andreas Spiess']([VIDEO]) videos on SDR."
+    }
+   ]
+  },
+  {
+   "id": "jBNcTn9BEy0",
+   "title": "145 MHz Low Loss Bandpass Helical Filter by Mile Kokotov",
+   "channel": "Mile Kokotov",
+   "duration_sec": 215,
+   "published": "2015-04-27",
+   "summary": "Mile Kokotov (Z33T) shows the inside of his homemade helical bandpass filter for the 2m band, tunable from about 110 to 160 MHz, and explains the parts and the calculations behind it. Hams and RTL-SDR users recommend it as an easy-to-copy design that stops overload from nearby FM broadcast, pager and TV transmitters, with several reporting successful builds tuned with a NanoVNA.",
+   "why_watch": "Build a simple filter that rescues a deafened handheld or SDR",
+   "topics": [
+    "electronics",
+    "sdr",
+    "vhf-uhf"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 4,
+   "first_mention": "2015-04-29",
+   "last_mention": "2024-01-07",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/building-a-145-mhz-low-loss-helical-bandpass-filter/",
+     "date": "2015-04-29",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "In his video Mile shows the inner construction of his helical filter, explains the parts and shows what calculations he used for construction."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/73arhx/_/dnpoudp/",
+     "date": "2017-09-30",
+     "author": "The_Real_Catseye",
+     "label": "recommendation",
+     "excerpt": "I also built an adjustable bandpass filter that puts a dead stop to it."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/d8vjx9/_/f1czlik/",
+     "date": "2019-09-25",
+     "author": "phckopper",
+     "label": "neutral_reference",
+     "excerpt": "I settled on [this design]([VIDEO]) I found on YouTube, which should give me a low insertion loss and high rejection."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/18zthss/_/kgoqknj/",
+     "date": "2024-01-07",
+     "author": "martinrath77",
+     "label": "neutral_reference",
+     "excerpt": "Mile Z33T has a youtube video about the design : [VIDEO]"
+    }
+   ]
+  },
+  {
+   "id": "x99R78fkSg0",
+   "title": "Advanced Meshtastic - Radio Configuration Part 1",
+   "channel": "The Comms Channel",
+   "duration_sec": 748,
+   "published": "2023-12-26",
+   "summary": "The first part of The Comms Channel's Advanced Meshtastic series, walking through Meshtastic radio configuration settings, including device roles such as client_mute for setups with multiple nodes. Commenters point newcomers to it as a well-organized next step after the Getting Started playlist and cite specific settings advice like when to use client_mute for a home node.",
+   "why_watch": "Tune your Meshtastic nodes to work better together",
+   "topics": [
+    "mesh"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 3,
+   "mention_count": 3,
+   "first_mention": "2024-01-18",
+   "last_mention": "2024-12-15",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1hf2qq6/_/m28ccy2/",
+     "date": "2024-12-15",
+     "author": "Hinermad",
+     "label": "recommendation",
+     "excerpt": "I found The Comms channel on Youtube to be very informative. He has two playlists that are well organized and walk you through what Meshtasic is, how to get started, and then more advanced topics"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/199b5a6/_/kifoudh/",
+     "date": "2024-01-18",
+     "author": "oSPANNERo",
+     "label": "recommendation",
+     "excerpt": "Here are some videos that have helped me understand the technology better:"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1c5yhyq/_/kzy71ve/",
+     "date": "2024-04-17",
+     "author": "ruuutherford",
+     "label": "recommendation",
+     "excerpt": "I just watched a YouTube about this, client_mute is what you want."
+    }
+   ]
+  },
+  {
+   "id": "dIAppQPMznY",
+   "title": "Get Your FIRST Ham Radio License NOW!  1-Day Technician Class",
+   "channel": "Ham Radio 2.0",
+   "duration_sec": 25216,
+   "published": "2022-11-13",
+   "summary": "A seven-hour recording of KB6NU's one-day Technician license class, hosted on Ham Radio 2.0, walking through the Technician question pool from rules and regulations to basic electronics and operating practices. Hams recommend it alongside KB6NU's free study guide as a free, complete way to prepare for the Tech exam, especially the rules and terminology questions that must be memorized.",
+   "why_watch": "Prepare for your Technician exam in a single day",
+   "topics": [
+    "licensing",
+    "getting-started"
+   ],
+   "level": "Technician",
+   "exam_prep": "Technician",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 4,
+   "first_mention": "2023-03-19",
+   "last_mention": "2023-11-28",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/12b3vmj/_/jevccsw/",
+     "date": "2023-04-04",
+     "author": "dan_kb6nu",
+     "label": "recommendation",
+     "excerpt": "There's also a recording of my [one-day Tech class on YouTube]([VIDEO])."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/12lu3f3/_/jg7zyil/",
+     "date": "2023-04-14",
+     "author": "Wendigo_6",
+     "label": "recommendation",
+     "excerpt": "Here’s a [7hr video class]([VIDEO]) with the same data."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/185mmc2/_/kb2ruib/",
+     "date": "2023-11-28",
+     "author": "Wendigo_6",
+     "label": "recommendation",
+     "excerpt": "Hes also got a [7hr course]([VIDEO]) that you can find on YouTube."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/11vah6k/_/jctoc2d/",
+     "date": "2023-03-19",
+     "author": "Wendigo_6",
+     "label": "recommendation",
+     "excerpt": "There’s plenty of info on YouTube."
+    }
+   ]
+  },
+  {
+   "id": "IaKEYEyrRgk",
+   "title": "Getting started with SDR# and an RTL SDR tuner",
+   "channel": "Clayton Smith",
+   "duration_sec": 1053,
+   "published": "2013-12-06",
+   "summary": "A 17-minute walkthrough of the SDR# program with an RTL-SDR dongle, covering its main features, how to calibrate the tuner's frequency offset, and receiving a few local signals. RTL-SDR.com pointed newcomers to it after their quickstart guide, and a Reddit user noted even experienced users picked up settings they didn't know, like the contrast slider.",
+   "why_watch": "Turn a cheap USB dongle into a working radio receiver",
+   "topics": [
+    "sdr",
+    "getting-started"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2013-12-08",
+   "last_mention": "2019-07-20",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/sdrsharp-video-tutorial/",
+     "date": "2013-12-08",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "this YouTube tutorial video by Clayton Smith on using the SDR# program may be useful to you."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/cfhsr1/_/euafe84/",
+     "date": "2019-07-20",
+     "author": "tobby540",
+     "label": "recommendation",
+     "excerpt": "I've attached a youtube link for a getting started in sdr# (yes, even more advanced users like me didn't know about some of this stuff!)"
+    }
+   ]
+  },
+  {
+   "id": "0a2atoaK-s0",
+   "title": "Guide to Getting Started with FT8 and QuickStart",
+   "channel": "ModernHam",
+   "duration_sec": 1127,
+   "published": "2019-06-02",
+   "summary": "An 18-minute walkthrough of getting started with FT8 using WSJT-X, covering setup, configuration, and making automated digital-mode contacts on HF. Commenters credit it with getting them over their first-FT8 jitters, and RTL-SDR Blog pointed to it as the general FT8 introduction alongside ModernHam's SDR decoding tutorial.",
+   "why_watch": "Gets you past FT8 jitters to your first digital contacts",
+   "topics": [
+    "digital-modes",
+    "hf"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2019-06-06",
+   "last_mention": "2023-02-08",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/decoding-ft8-with-an-rtl-sdr-blog-v3-in-direct-sampling-mode/",
+     "date": "2019-06-06",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "June 6, 2019 Decoding FT8 with an RTL-SDR Blog V3 in Direct Sampling Mode Over on YouTube user ModernHam has uploaded a useful tutorial showing how to use our RTL-SDR Blog V3 dongles for FT8…"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/10wxzxt/_/j7pk1y8/",
+     "date": "2023-02-08",
+     "author": "hoverbeaver",
+     "label": "recommendation",
+     "excerpt": "pretty sure this was the video that got me over my jitters: [VIDEO]"
+    }
+   ]
+  },
+  {
+   "id": "975GvFhzxx8",
+   "title": "HAM Radio Crash Course INTRO - WHY RADIO?",
+   "channel": "Ham Radio Crash Course",
+   "duration_sec": 381,
+   "published": "2015-12-12",
+   "summary": "A short intro video from the Ham Radio Crash Course channel explaining what amateur radio is and why someone might want to get into the hobby. Redditors repeatedly point total newcomers and confused beginners to it as the entry point to a go-to channel for learning the basics.",
+   "why_watch": "A quick, friendly answer to why ham radio is worth it",
+   "topics": [
+    "getting-started",
+    "licensing"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 3,
+   "mention_count": 3,
+   "first_mention": "2019-08-17",
+   "last_mention": "2022-01-27",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/d4q8rs/_/f0g0isc/",
+     "date": "2019-09-15",
+     "author": "hamradiodx",
+     "label": "recommendation",
+     "excerpt": "Ham Radio Crash Course is the go to channel"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/se2soa/_/hugk0t0/",
+     "date": "2022-01-27",
+     "author": "Embarrassed-Emu8131",
+     "label": "recommendation",
+     "excerpt": "There’s some great videos on YouTube for introducing people to radio. Ham radio crash course does a great job with these kinds of videos."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/crj6qh/_/ex5nn03/",
+     "date": "2019-08-17",
+     "author": "rusty__b15",
+     "label": "recommendation",
+     "excerpt": "The Youtube channel Ham Radio Crash Course is great, he has an awesome facebook group and he live-streams every Friday."
+    }
+   ]
+  },
+  {
+   "id": "PWWGDL5tC_I",
+   "title": "How To Receive Images Directly From NOAA Satellites",
+   "channel": "Ham Radio Crash Course",
+   "duration_sec": 974,
+   "published": "2020-03-04",
+   "summary": "A 16-minute tutorial on receiving APT weather images from NOAA satellites, using an SDRplay with SDRuno, VB-Cable to pipe the audio, and WXtoIMG to decode the pictures. Commenters point to it because it explains where to download WXtoIMG now that the official site is abandoned, and they list it among the videos that got them decoding their first images with a simple homemade dipole.",
+   "why_watch": "Pull real weather photos from space with a cheap SDR",
+   "topics": [
+    "satellites",
+    "sdr"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2020-03-10",
+   "last_mention": "2023-01-21",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/youtube-tutorial-on-receiving-weather-images-from-noaa-satellites/",
+     "date": "2020-03-10",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "There are many tutorials (such as ours here ) and videos on this topic already, but more cannot hurt, and this one makes specific reference to how to download the WXtoIMG software"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/10gmx55/_/j5blbpr/",
+     "date": "2023-01-21",
+     "author": "ppoojohn",
+     "label": "recommendation",
+     "excerpt": "And you can further look on YouTube for more information here are some videos I watched"
+    }
+   ]
+  },
+  {
+   "id": "cqh0Ntus5G0",
+   "title": "How to make a Ham Radio Speaker Wire Antenna",
+   "channel": "KG6HQD Jerry",
+   "duration_sec": 861,
+   "published": "2018-02-21",
+   "summary": "KG6HQD Jerry shows how to build a simple dipole antenna from ordinary speaker wire and a BNC connector, cutting it to length and getting it up on a support. Commenters point new hams to it as a cheap, easy first dipole that shows you don't need to spend hundreds on a commercial antenna.",
+   "why_watch": "Build a working antenna for a few dollars",
+   "topics": [
+    "antennas",
+    "portable",
+    "electronics"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 3,
+   "mention_count": 3,
+   "first_mention": "2022-03-23",
+   "last_mention": "2024-01-11",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/tk7ixl/_/i1qsd6b/",
+     "date": "2022-03-23",
+     "author": "corporate_cog",
+     "label": "recommendation",
+     "excerpt": "Here's a good video that explains how to build one."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/ul5hbi/_/i7v1y7y/",
+     "date": "2022-05-09",
+     "author": "WillShattuck",
+     "label": "recommendation",
+     "excerpt": "I just built a speaker wire antenna this afternoon after watching KG6HQD's video"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/193kyms/_/khaj4cj/",
+     "date": "2024-01-11",
+     "author": "bottlenix",
+     "label": "recommendation",
+     "excerpt": "Look up “HQD speaker wire antenna” on YouTube. All you need is some speaker wire and a BNC post to make it"
+    }
+   ]
+  },
+  {
+   "id": "pxsInjTLazs",
+   "title": "Improve Antenna TV Reception and Detect Interference using the RTL-SDR USB as a Spectrum Analyzer",
+   "channel": "Double A Labs",
+   "duration_sec": 1278,
+   "published": "2022-03-10",
+   "summary": "A tutorial on setting up an RTL-SDR with the free Spektrum software as a spectrum analyzer, then using it to compare a phased-array TV antenna against a cheaper log-periodic, reposition antennas, and find FM, 5G and household-electronics interference. The RTL-SDR blog featured it as a practical walkthrough, and a Reddit user pointed others to it when they needed to scan the digital TV spectrum.",
+   "why_watch": "Turn a cheap USB dongle into a real spectrum analyzer",
+   "topics": [
+    "sdr",
+    "antennas",
+    "test-equipment"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2022-03-11",
+   "last_mention": "2023-04-18",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/troubleshooting-tv-reception-with-spektrum-and-an-rtl-sdr/",
+     "date": "2022-03-11",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "Thank you to \"Double A\" for submitting his latest YouTube tutorial video that shows how to use an RTL-SDR together with the Spektrum software to optimize TV reception"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/12np6by/_/jgs73n5/",
+     "date": "2023-04-18",
+     "author": "TheRealBanana0",
+     "label": "recommendation",
+     "excerpt": "I found [this youtube video]([VIDEO]) showing how to diagnose cable TV using an rtlsdr and the [Spektrum]([LINK]) spectrum analyzer."
+    }
+   ]
+  },
+  {
+   "id": "7dGy9UJIKQE",
+   "title": "KrakenSDR - WOW! Amazing Direction Finding Tests : Part 2",
+   "channel": "Frugal Radio",
+   "duration_sec": 1124,
+   "published": "2022-09-11",
+   "summary": "Frugal Radio takes the KrakenSDR, a five-channel coherent RTL-SDR-based receiver, on a vehicle drive, showing the roof antenna setup and cable routing, then using it to locate two unknown transmitters, including a DMR trunked radio user at a factory. Commenters point to it as a practical demonstration of radio direction finding that a single RTL-SDR can't do, including for tracking down repeaters.",
+   "why_watch": "Watch an SDR hunt down mystery transmitters from a car",
+   "topics": [
+    "sdr",
+    "antennas",
+    "equipment"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 3,
+   "first_mention": "2022-09-14",
+   "last_mention": "2025-01-06",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/frugal-radio-krakensdr-part-2-vehicle-direction-finding-tests/",
+     "date": "2022-09-14",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "In both tests Rob notes how he was impressed at how quickly a location was able to be determined, taking only a few minutes each time."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/1huw3ci/_/m5rxp67/",
+     "date": "2025-01-06",
+     "author": "Papfox",
+     "label": "recommendation",
+     "excerpt": "Here is a two part YouTube video showing how to set up a KrakenSDR and perform the activity you seem to want:"
+    },
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/krakensdr-field-reports-and-software-updates/",
+     "date": "2022-10-25",
+     "author": "rtl-sdr.com",
+     "label": "neutral_reference",
+     "excerpt": "In this video Frugal Radio unboxes and tests his KrakenSDR and Krakentenna's on a vehicle."
+    }
+   ]
+  },
+  {
+   "id": "W6OXc_wZTXU",
+   "title": "RTL SDR HF Helper improves reception",
+   "channel": "Amateur Radio VK3YE",
+   "duration_sec": 1426,
+   "published": "2024-10-06",
+   "summary": "VK3YE builds an 'HF Helper' from junk-box parts, a tunable HF preselector with an attenuator pot, a high-pass filter against medium-wave broadcast, and series-tuned LC circuits per band, to stop an RTL-SDR V4 dongle from overloading on HF. Hackaday and RTL-SDR.com recommend it because it is a dead-simple, ugly-style build that makes a cheap dongle far more usable on HF and can pair with a QRP transmitter for a simple station.",
+   "why_watch": "Make your cheap SDR dongle hear HF much better",
+   "topics": [
+    "sdr",
+    "electronics",
+    "hf"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2024-10-24",
+   "last_mention": "2024-11-20",
+   "sources": [
+    "hackaday",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/building-an-hf-helper-for-improving-rtl-sdr-hf-reception/",
+     "date": "2024-10-24",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "Over on YouTube Amateur Radio VK3YE has uploaded a video showing his 'HF Helper' project."
+    },
+    {
+     "source": "hackaday",
+     "url": "https://hackaday.com/2024/11/20/__trashed-24/",
+     "date": "2024-11-20",
+     "author": "Dan Maloney",
+     "label": "recommendation",
+     "excerpt": "This would be a great addition to any ham’s SDR toolkit."
+    }
+   ]
+  },
+  {
+   "id": "L3ftfGag7D8",
+   "title": "Receiving Images From Satellites Part 2: Decoding and Demodulating NOAA and METEOR Transmissions",
+   "channel": "The Thought Emporium",
+   "duration_sec": 643,
+   "published": "2017-05-29",
+   "summary": "A step-by-step tutorial on receiving weather satellite images with an SDR, using SDR#, Audacity and WXtoIMG for NOAA APT and a chain of LRPT tools for Meteor M2. Commenters credit it as the main source that got their first NOAA image decoded with an RTL-SDR dongle, though one notes a small error in the companion Instructable about deleting an audio track.",
+   "why_watch": "Pull real weather photos from space with a cheap dongle",
+   "topics": [
+    "satellites",
+    "sdr"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2017-05-31",
+   "last_mention": "2018-07-30",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/youtube-video-a-tutorial-on-receiving-and-decoding-noaa-and-meteor-satellites/",
+     "date": "2017-05-31",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "May 31, 2017 YouTube Video: A Tutorial on Receiving and Decoding NOAA and METEOR Satellites Back in March we posted about The Thought Emporium’s YouTube video that explained weather satellites and…"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/92th1f/_/e3a1vfo/",
+     "date": "2018-07-30",
+     "author": "JeoffB",
+     "label": "recommendation",
+     "excerpt": "I got most of my info from this Youtube video: [[VIDEO]]([VIDEO])"
+    }
+   ]
+  },
+  {
+   "id": "UBrfqLc0E2U",
+   "title": "SDRTrunk The FREE P25 Police Scanner! Windows and Linux Tutorial",
+   "channel": "SignalsEverywhere",
+   "duration_sec": 789,
+   "published": "2020-07-21",
+   "summary": "A step-by-step tutorial on installing SDRTrunk on Windows and Linux, adding the JMBE audio codec, importing trunked P25 system data from RadioReference or entering it manually, blacklisting talkgroups, and using two RTL-SDR dongles together. Listeners who couldn't get digital trunked audio working with other tools say following it finally got them decoding local public-safety channels.",
+   "why_watch": "Turn cheap RTL-SDR dongles into a free digital scanner",
+   "topics": [
+    "sdr",
+    "repeaters"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2020-07-22",
+   "last_mention": "2022-04-20",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/signalseverywhere-sdrtrunk-p25-police-scanner-tutorial-with-two-rtl-sdrs/",
+     "date": "2020-07-22",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "Over on YouTube Sarah from SignalsEverywhere has uploaded a new tutorial video showing how to use two RTL-SDR dongles with the free SDRTrunk software to create a P25 Police scanner."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/u5gldk/_/i5f11i3/",
+     "date": "2022-04-20",
+     "author": "physical_kid",
+     "label": "recommendation",
+     "excerpt": "I downloaded SDR Trunk and found this tutorial on youtube, and now I'm golden!"
+    }
+   ]
+  },
+  {
+   "id": "EK8mFrxxSbY",
+   "title": "Satellite Ground Station With Trash, Cardboard, and Foil Tape!",
+   "channel": "saveitforparts",
+   "duration_sec": 603,
+   "published": "2021-03-24",
+   "summary": "A build video showing how a dumpster-salvaged DirecTV dish was enlarged with cardboard and aluminum foil tape to receive live full-disk images from the GOES-16 geostationary weather satellite. Commenters point to it as proof that old satellite TV dishes can be cheaply repurposed into working hobby ground stations.",
+   "why_watch": "Pull live Earth images from space with a trash dish",
+   "topics": [
+    "satellites",
+    "sdr",
+    "antennas"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2021-03-25",
+   "last_mention": "2023-11-15",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/building-a-goes-16-antenna-out-of-trash-cardboard-and-foil-tape/",
+     "date": "2021-03-25",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "Over on his YouTube channel saveitforparts has uploaded a video showing how he was able to modify and old DirectTV satellite dish found in the dumpster with cardboard and foil"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/17vinf7/_/k9c3ppw/",
+     "date": "2023-11-15",
+     "author": "metalbotatx",
+     "label": "recommendation",
+     "excerpt": "The \"saveitforparts\" youtube channel has a couple episodes where he repurposes satellite dishes for non-TV purposes."
+    }
+   ]
+  },
+  {
+   "id": "LMxate9gegg",
+   "title": "The Secret Life of the Radio - Remastered",
+   "channel": "tim hunkin",
+   "duration_sec": 1899,
+   "published": "2021-06-03",
+   "summary": "Tim Hunkin's remastered 1987 TV episode explains how radio works by recreating Hertz and Marconi's spark gap and coherer experiments, then covers the development of AM, Edwin Armstrong's FM, and why switches crackle on an AM receiver. Commenters point to it as a clear hands-on demonstration of spark gap transmitters and early radio history, with a charming animated telling of the FM story.",
+   "why_watch": "See radio's first experiments rebuilt with sparks and wire",
+   "topics": [
+    "history-culture",
+    "propagation",
+    "electronics"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 3,
+   "mention_count": 6,
+   "first_mention": "2021-12",
+   "last_mention": "2024-03",
+   "sources": [
+    "hn",
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=29603391",
+     "date": "2021-12",
+     "author": "y04nn",
+     "label": "recommendation",
+     "excerpt": "it worth watching the whole video if you are interested"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/rnrx38/_/hpu8ajv/",
+     "date": "2021-12-24",
+     "author": "iufnd8fn8er3",
+     "label": "recommendation",
+     "excerpt": "Here is a nice TV science program with a demonstration of a spark gap transmitter."
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=35345436",
+     "date": "2023-03",
+     "author": "throw0101b",
+     "label": "recommendation",
+     "excerpt": "awesome series, now freely/legally posted on YT"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=33727355",
+     "date": "2022-11",
+     "author": "LeoPanthera",
+     "label": "neutral_reference",
+     "excerpt": "A slightly comical animated look at Edwin Armstrong"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=39826050",
+     "date": "2024-03",
+     "author": "helsinkiandrew",
+     "label": "neutral_reference",
+     "excerpt": "which recreates some of Hertz and Marconi"
+    }
+   ]
+  },
+  {
+   "id": "PFQ6UKulxSo",
+   "title": "This 3D-Printed Satellite Antenna Is Fantastic!",
+   "channel": "saveitforparts",
+   "duration_sec": 910,
+   "published": "2024-12-19",
+   "summary": "Gabe of saveitforparts builds and tests a 3D-printable handheld helicone dish antenna from a Thingiverse design, using it to receive L-band weather imagery from polar-orbiting NOAA and Meteor satellites. Hackaday and RTL-SDR.com highlighted it because the antenna is cheap, lightweight and handheld, and Gabe shows practical fixes like adding center supports to stop the printed legs from warping.",
+   "why_watch": "Print your own dish and pull images from weather satellites",
+   "topics": [
+    "satellites",
+    "antennas",
+    "sdr"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2024-12-23",
+   "last_mention": "2025-01-06",
+   "sources": [
+    "hackaday",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "hackaday",
+     "url": "https://hackaday.com/2024/12/23/handheld-satellite-dish-is-3d-printed/",
+     "date": "2024-12-23",
+     "author": "Bryan Cockfield",
+     "label": "recommendation",
+     "excerpt": "The results for the day of testing were incredibly promising."
+    },
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/saveitforparts-testing-a-3d-printable-satellite-antenna-for-noaa-meteor-and-other-polar-orbiting-l-band-satellites/",
+     "date": "2025-01-06",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "Over on the saveitforparts channel, Gabe has uploaded a video showing a 3D-printable helicone antenna for receiving weather images from polar-orbiting L-band satellites like NOAA and Meteor."
+    }
+   ]
+  },
+  {
+   "id": "CbHjcwIoTiY",
+   "title": "WLW's 500,000 Watt Transmitter",
+   "channel": "K7AGE",
+   "duration_sec": 1904,
+   "published": "2013-07-19",
+   "summary": "A recorded tour of the WLW transmitter site in Ohio, taken during the 2013 Dayton Hamvention, showing the high-power broadcast equipment behind America's only 500,000-watt AM station along with the facility's history. Commenters recommend it as a detailed, fun look at massive RF hardware and the young engineers who designed and ran it in radio's early days.",
+   "why_watch": "See up close the hardware behind a 500,000-watt transmitter",
+   "topics": [
+    "electronics",
+    "antennas"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 4,
+   "mention_count": 4,
+   "first_mention": "2016-02",
+   "last_mention": "2023-11",
+   "sources": [
+    "hn"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=11078869",
+     "date": "2016-02",
+     "author": "paulgerhardt",
+     "label": "recommendation",
+     "excerpt": "You can get a full download on the Crosley WLW station in this video"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=22159778",
+     "date": "2020-01",
+     "author": "mschwar99",
+     "label": "recommendation",
+     "excerpt": "You get to see the high power equipment in detail accompanied by lots of history about the facility."
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=11098113",
+     "date": "2016-02",
+     "author": "wglb",
+     "label": "recommendation",
+     "excerpt": "At the 2013 Dayton Hamvention, there was a tour of the facility shown here"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=38343110",
+     "date": "2023-11",
+     "author": "geerlingguy",
+     "label": "recommendation",
+     "excerpt": "There's a fascinating tour of WLW on YouTube, too..."
+    }
+   ]
+  },
+  {
+   "id": "kNuf8zcLdHk",
+   "title": "[EN subs] LHCP Helix L-Band Feed - 3D Druck für eine genaue Helix",
+   "channel": "Tysonpower",
+   "duration_sec": 177,
+   "published": "2017-11-05",
+   "summary": "A short German-language tutorial with English subtitles showing how to build a 3D-printed left-hand circularly polarized helical feed for L-band (around 1550 MHz) and mount it on an 80cm satellite dish with LNAs. Commenters point to it as a practical guide for receiving Inmarsat, AERO and HRPT satellite signals with an SDR, noting the 3D-printed form makes an accurate helix easy to wind.",
+   "why_watch": "Build your own dish feed to hear satellites overhead",
+   "topics": [
+    "antennas",
+    "satellites",
+    "sdr"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 3.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2017-11-06",
+   "last_mention": "2019-08-25",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/building-a-3d-printed-lhcp-helical-l-band-feed-for-inmarsat-aero-and-hrpt/",
+     "date": "2017-11-06",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "November 6, 2017 Building a 3D Printed LHCP Helical L-Band Feed for Inmarsat, AERO and HRPT Thanks to Manuel a.k.a. Tysonpower for submitting his latest YouTube video tutorial about building an 1550…"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/cuyr9k/_/ey392oc/",
+     "date": "2019-08-25",
+     "author": "CodingMarco",
+     "label": "recommendation",
+     "excerpt": "There is a good video series on YouTube with english subtitles:"
+    }
+   ]
+  },
+  {
+   "id": "blalAktxFoI",
+   "title": "#123: Build a crystal oscillator from schematic thru prototype construction and testing - DIY",
+   "channel": "w2aew",
+   "duration_sec": 860,
+   "published": "2013-12-30",
+   "summary": "Alan Wolke, W2AEW, takes a crystal oscillator from schematic through prototype construction on the bench and then tests the finished circuit with his instruments. Commenters point to W2AEW as one of the clearest and most accurate presenters of technical ham topics, and recommend projects like this as a next step for people who want to start homebrewing.",
+   "why_watch": "Watch a working oscillator go from schematic to bench",
+   "topics": [
+    "electronics",
+    "test-equipment"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.5,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2017-07-16",
+   "last_mention": "2026-07-15",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1uwhgj8/_/oxlwtx5/",
+     "date": "2026-07-15",
+     "author": "ZeroNot",
+     "label": "strong_recommendation",
+     "excerpt": "I've found his videos some of the best amateur radio related videos on YouTube."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/6ni70r/_/dka7esf/",
+     "date": "2017-07-16",
+     "author": "TheSwami",
+     "label": "recommendation",
+     "excerpt": "His video [Build a crystal oscillator from schematic thru prototype construction and testing]([VIDEO]) is a great walkthrough of how to get started"
+    }
+   ]
+  },
+  {
+   "id": "k1jt9UkpVvU",
+   "title": "Listening To Artemis II's Return To Earth With DIY Satellite Station",
+   "channel": "saveitforparts",
+   "duration_sec": 1082,
+   "published": "2026-04-10",
+   "summary": "Saveitforparts uses a homebuilt satellite dish and SDR setup to try receiving Artemis II's 2.2 GHz S-band signals as the capsule returns to Earth, explaining the equipment and the challenges of a low-elevation pass from Minnesota. Commenters recommend it as a clear explanation of what hobbyists can and can't actually pick up from a crewed lunar mission using amateur gear.",
+   "why_watch": "Hear a lunar spacecraft with a backyard dish and SDR",
+   "topics": [
+    "satellites",
+    "sdr",
+    "antennas"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.5,
+   "people": 2,
+   "mention_count": 3,
+   "first_mention": "2026-04-10",
+   "last_mention": "2026-04-20",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1sqbinf/_/oh6phpm/",
+     "date": "2026-04-20",
+     "author": "WLFGHST",
+     "label": "strong_recommendation",
+     "excerpt": "It's save it for parts video (not the crossposter, but the OP, and an AMAZING youtuber)"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1si2zon/_/ofh9fhl/",
+     "date": "2026-04-10",
+     "author": "nm3109",
+     "label": "recommendation",
+     "excerpt": "[this video]([VIDEO]) from Saveitforparts on YouTube does a really good job explaining the tech side of things catching the Artemis 2.2ghz frequencies on amateur equipment!"
+    },
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/saveitforparts-receiving-artemis-2-signals/",
+     "date": "2026-04-15",
+     "author": "rtl-sdr.com",
+     "label": "neutral_reference",
+     "excerpt": "Over on the saveitforparts YouTube channel, Gabe has recently posted two videos where he attempts to receive the Artemis 2 signal."
+    }
+   ]
+  },
+  {
+   "id": "shJxD5fiEhs",
+   "title": "New! Heltec V3 ESP32 LoRa OLED Step By Step",
+   "channel": "ShotokuTech",
+   "duration_sec": 736,
+   "published": "2023-07-03",
+   "summary": "A step-by-step setup walkthrough for the Heltec V3 ESP32 LoRa board with OLED display, covering getting it connected and flashed from a Windows PC. Redditors trying to flash LoRa32 boards for mesh use say the segment around 4:10–5:17 solved a flashing problem they couldn't fix anywhere else.",
+   "why_watch": "Get your first LoRa board flashed and running",
+   "topics": [
+    "mesh",
+    "electronics"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.5,
+   "people": 2,
+   "mention_count": 3,
+   "first_mention": "2025-04-09",
+   "last_mention": "2025-07-13",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1js73z2/_/n2u9ei9/",
+     "date": "2025-07-13",
+     "author": "fattmann",
+     "label": "strong_recommendation",
+     "excerpt": "For whatever poor soul has the same issue as me here is the link to the YouTube video that solved the problem"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1js73z2/_/mm5emon/",
+     "date": "2025-04-09",
+     "author": "epic-drew16",
+     "label": "recommendation",
+     "excerpt": "For whatever poor soul has the same issue as me here is the link to the YouTube video that solved the problem"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1js73z2/_/mm5esil/",
+     "date": "2025-04-09",
+     "author": "epic-drew16",
+     "label": "recommendation",
+     "excerpt": "For whatever poor soul has the same issue as me here is the link to the YouTube video that solved the problem"
+    }
+   ]
+  },
+  {
+   "id": "kMlKfHHR8FY",
+   "title": "#100 Balun PART 1: Broadcast Interference, Common Mode Current and  Balun's magic",
+   "channel": "TRX Lab",
+   "duration_sec": 3155,
+   "published": "2016-07-02",
+   "summary": "A 52-minute bench session from TRX Lab explaining broadcast interference, common mode current on feedlines, and how baluns and chokes suppress it, the first of a three-part series that goes on to winding working baluns. Hams point to it when someone asks which commercial balun to buy or how to stop RF coming back into the shack, saying it teaches you enough to build and test your own.",
+   "why_watch": "Finally understand why RF gets into your shack",
+   "topics": [
+    "antennas",
+    "electronics",
+    "hf"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2020-10-13",
+   "last_mention": "2022-08-13",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/jafaen/_/g8p6nvk/",
+     "date": "2020-10-13",
+     "author": "Hundsheimer_Berge",
+     "label": "recommendation",
+     "excerpt": "Watch these three videos from TRX Bench on Youtube, and YOU will be the one making your own \"*really well-made, tested*\" Baluns!"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/wn0brk/_/ik5lsvh/",
+     "date": "2022-08-13",
+     "author": "Nanko55",
+     "label": "recommendation",
+     "excerpt": "For a good choke description you may like to watch the YouTube videos from Peter Schroeder, TRX Lab: [VIDEO]"
+    }
+   ]
+  },
+  {
+   "id": "9cP6w2odGUc",
+   "title": "#88: Cheap and simple TDR using an oscilloscope and 74AC14 Schmitt Trigger Inverter",
+   "channel": "w2aew",
+   "duration_sec": 597,
+   "published": "2013-04-21",
+   "summary": "W2AEW builds a simple time domain reflectometer from a 74AC14 Schmitt trigger inverter and uses an oscilloscope to show reflections on coax, locating opens, shorts and impedance mismatches along the line. Commenters recommend it as a cheap, practical way to learn how transmission lines behave and to find faults in coax without special equipment.",
+   "why_watch": "Find coax faults with a few-cent chip and your scope",
+   "topics": [
+    "test-equipment",
+    "antennas",
+    "electronics"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2015-03-26",
+   "last_mention": "2018-09-23",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/30bxho/_/cprmokw/",
+     "date": "2015-03-26",
+     "author": "christ0ph",
+     "label": "recommendation",
+     "excerpt": "his suggestion is - Youtube video showing TDR with a pulse generator!"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/9i804e/_/e6hj85b/",
+     "date": "2018-09-23",
+     "author": "rzzzwilson",
+     "label": "recommendation",
+     "excerpt": "Have a look at [this youtube video by W2AEW]([VIDEO])."
+    }
+   ]
+  },
+  {
+   "id": "bSF-q_qaqqg",
+   "title": "Best Beginner Ham Radios - VHF/UHF/HF - Livestream",
+   "channel": "Ham Radio Crash Course",
+   "duration_sec": 5591,
+   "published": "2020-10-11",
+   "summary": "A 93-minute livestream from Ham Radio Crash Course walking through recommended first radios for new hams across VHF/UHF handhelds and entry-level HF rigs. Commenters point newcomers to it for practical advice on basic first radios and a welcoming, enthusiastic host who helps them weigh costs before buying.",
+   "why_watch": "Pick your first radio without overspending",
+   "topics": [
+    "equipment",
+    "getting-started",
+    "vhf-uhf"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2021-02-05",
+   "last_mention": "2022-07-20",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/w2hm6d/_/igxn4ty/",
+     "date": "2022-07-20",
+     "author": "wdetmar",
+     "label": "recommendation",
+     "excerpt": "Check out this video: [VIDEO] he talks about basic first radios."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/lap73b/_/gm5lmyu/",
+     "date": "2021-02-05",
+     "author": "climberartist",
+     "label": "recommendation",
+     "excerpt": "If you haven't done so already, check out the \"Ham Radio Crash Course\" youtube channel."
+    }
+   ]
+  },
+  {
+   "id": "M6RnHcGNL6Q",
+   "title": "Building a $600 P25 Police Scanner for $250!!! (SDR-Pi)",
+   "channel": "Top DNG",
+   "duration_sec": 306,
+   "published": "2024-02-04",
+   "summary": "A short build video showing how to make a portable P25 digital trunking scanner from a Raspberry Pi 5, a touchscreen, and an RTL-SDR dongle running SDRTrunk, set up to monitor local LAPD channels. Hackaday and RTL-SDR.com highlighted it as an affordable alternative to $600 commercial digital scanners.",
+   "why_watch": "Build your own digital police scanner for under $250",
+   "topics": [
+    "sdr",
+    "vhf-uhf"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2024-02-09",
+   "last_mention": "2024-02-10",
+   "sources": [
+    "hackaday",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "hackaday",
+     "url": "https://hackaday.com/2024/02/10/pi-5-and-sdr-team-up-for-a-digital-scanner-you-can-actually-afford/",
+     "date": "2024-02-10",
+     "author": "Dan Maloney",
+     "label": "recommendation",
+     "excerpt": "The second video below has complete details and a walkthrough of a build, from start to finish."
+    },
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/a-low-cost-p25-police-scanner-with-rtl-sdr-raspberry-pi-5-and-sdrtrunk/",
+     "date": "2024-02-09",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "Thank you to Mike for writing in and sharing with us his video detailing how he makes use of a Raspberry Pi 5, touch LCD Screen and RTL-SDR to create a portable and low cost P25 police scanner."
+    }
+   ]
+  },
+  {
+   "id": "ubU9Mf_zZAM",
+   "title": "DEEP SDR: How I Built an Incident Map",
+   "channel": "Making Things Simpler",
+   "duration_sec": 1167,
+   "published": "2026-07-03",
+   "summary": "A walkthrough of DeepSDR, a system that monitors public safety voice channels with a Nooelec RTL-SDR, transcribes the audio with Whisper, and uses an LLM to categorize incidents and plot them on a live city map. It was featured on RTL-SDR.com for its full demo mapping cardiac, overdose, collision and hazmat calls over time, though the code itself is not publicly released.",
+   "why_watch": "See a cheap SDR dongle turned into a live incident map",
+   "topics": [
+    "sdr",
+    "emergency"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2026-07-04",
+   "last_mention": "2026-07-20",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/deepsdr-building-a-live-public-safety-incident-map-with-an-rtl-sdr-whisper-and-an-llm/",
+     "date": "2026-07-20",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "in his YouTube video, he shows how he mapped cardiac, animal, drug overdose, vehicle collision, rescue, and hazmat events over time, building a powerful database of what is happening in his city."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/1uncdpd/_/ovjyvr3/",
+     "date": "2026-07-04",
+     "author": "Hubquhq",
+     "label": "recommendation",
+     "excerpt": "I encourage you to watch my full YouTube video, it’s just under 20 minutes long."
+    }
+   ]
+  },
+  {
+   "id": "OjXd8L2eEcE",
+   "title": "DX Commander POTA RaDAR Part 1",
+   "channel": "Astro Leah",
+   "duration_sec": 744,
+   "published": "2020-12-21",
+   "summary": "Two young hams set up a DX Commander vertical and a 20-watt Xiegu G90 for a Parks on the Air activation, working stations across the US and into Canada and Puerto Rico. Commenters point to it as proof that modest power and a simple vertical can make plenty of contacts, and as an example of young and women hams enjoying the hobby.",
+   "why_watch": "See 20 watts and a vertical reach across the continent",
+   "topics": [
+    "portable",
+    "hf",
+    "antennas"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2021-02-21",
+   "last_mention": "2021-10-08",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/q445c0/_/hfw484m/",
+     "date": "2021-10-08",
+     "author": "Tepidlake",
+     "label": "recommendation",
+     "excerpt": "Here's a YouTube video of two young hams doing POTA (Parks On The Air) with a G90 (20 watts) and a simple vertical antenna."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/lozk5r/_/go8l1vq/",
+     "date": "2021-02-21",
+     "author": "bluebottle79",
+     "label": "recommendation",
+     "excerpt": "Regarding other YLs that are hams have you seen KD9LFZ YouTube channel? [VIDEO]"
+    }
+   ]
+  },
+  {
+   "id": "586Zn1ct-QA",
+   "title": "EEVblog 1547 (Part 1) - Contacting the Voyager 2 Space Probe",
+   "channel": "EEVblog",
+   "duration_sec": 1199,
+   "published": "2023-06-05",
+   "summary": "Dave Jones of EEVblog visits NASA's Canberra Deep Space Communications Complex and shows the large dish antennas and ground systems used to send commands to and receive signals from Voyager 2. Commenters point to it, along with its follow-up parts, whenever Voyager communications are in the news, because it shows concretely how contact with a probe billions of kilometers away works.",
+   "why_watch": "See the giant dishes that still talk to Voyager",
+   "topics": [
+    "satellites",
+    "antennas",
+    "propagation"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 3,
+   "first_mention": "2023-07",
+   "last_mention": "2024-10",
+   "sources": [
+    "hn"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=37010721",
+     "date": "2023-08",
+     "author": "7373737373",
+     "label": "recommendation",
+     "excerpt": "These three videos by EEVblog detail the ground based antennas and how it is contacted"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=42006908",
+     "date": "2024-10",
+     "author": "wkat4242",
+     "label": "recommendation",
+     "excerpt": "Here's a nice video on what NASA uses to communicate with it"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=36941800",
+     "date": "2023-07",
+     "author": "sho_hn",
+     "label": "neutral_reference",
+     "excerpt": "Dave from EEVBlog just visited a facility communicating with Voyager 2"
+    }
+   ]
+  },
+  {
+   "id": "OhWlq-4IK9E",
+   "title": "Flipper ham - An experimental APRS transmitter",
+   "channel": "Richard YO3GND",
+   "duration_sec": 103,
+   "published": "2026-04-20",
+   "summary": "A one-minute demo of a Flipper Zero app that makes the device's built-in CC1101 radio transmit APRS packets on 70 cm with no external hardware, using FSK to approximate Bell 202 AFSK. Hackaday and RTL-SDR.com highlighted it as a clever software hack that builds the full APRS and AX.25 stack on the Flipper, while noting it is transmit-only and not decoded by all APRS hardware.",
+   "why_watch": "See a pocket hacking gadget send real APRS packets",
+   "topics": [
+    "aprs",
+    "security-hacking",
+    "digital-modes"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2026-04-21",
+   "last_mention": "2026-04-28",
+   "sources": [
+    "hackaday",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/bending-the-flipper-zeros-cc1101-into-an-aprs-transmitter/",
+     "date": "2026-04-28",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "While this may be impractical for any real use case, the idea of implementing the protocol properly on a constrained device is an interesting read."
+    },
+    {
+     "source": "hackaday",
+     "url": "https://hackaday.com/2026/04/21/flipper-zero-transmits-aprs-with-no-extra-parts/",
+     "date": "2026-04-21",
+     "author": "Jenny List",
+     "label": "recommendation",
+     "excerpt": "Check out the demo video below."
+    }
+   ]
+  },
+  {
+   "id": "gH-K9fRuhfQ",
+   "title": "Get Started With Meshtastic FAST!",
+   "channel": "Ham Radio Crash Course",
+   "duration_sec": 1148,
+   "published": "2024-05-15",
+   "summary": "Ham Radio Crash Course gives a quick-start walkthrough of Meshtastic, the LoRa-based off-grid mesh messaging system, covering what it is and how to get a node up and running. Commenters list it near the top of beginner learning playlists and say it helped them when they were first starting out.",
+   "why_watch": "Get your first Meshtastic node messaging off-grid quickly",
+   "topics": [
+    "mesh",
+    "getting-started"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2025-01-10",
+   "last_mention": "2026-10-16",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1hxuazf/_/m6cdj3n/",
+     "date": "2025-01-10",
+     "author": "ubermaker77",
+     "label": "recommendation",
+     "excerpt": "[Get Started with Meshtastic Fast!]([VIDEO]) by Ham Radio Crash Course"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1x7i1by/_/ph4il2e/",
+     "date": "2026-10-16",
+     "author": "Quevil138",
+     "label": "recommendation",
+     "excerpt": "I like these 2 videos on the subject, they helped when I started out."
+    }
+   ]
+  },
+  {
+   "id": "DUz6cVSaSl4",
+   "title": "Getting Started with Meshtastic - Devices",
+   "channel": "The Comms Channel",
+   "duration_sec": 871,
+   "published": "2023-11-05",
+   "summary": "Part of The Comms Channel's Getting Started with Meshtastic series, this episode surveys the LoRa hardware devices that run Meshtastic and helps viewers choose which node to buy. Redditors include it in recommended learning playlists for Meshtastic newcomers and point new device owners to the channel's series.",
+   "why_watch": "Pick the right Meshtastic node before you buy",
+   "topics": [
+    "mesh",
+    "equipment",
+    "getting-started"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2025-01-10",
+   "last_mention": "2025-04-23",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1hxuazf/_/m6cdj3n/",
+     "date": "2025-01-10",
+     "author": "ubermaker77",
+     "label": "recommendation",
+     "excerpt": "Your best best for accessible learning is definitely the YouTubers who cover Meshtastic. I'll give you a playlist that I think is in good order for learning:"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1k6d9cb/_/mopa2r6/",
+     "date": "2025-04-23",
+     "author": "KBOXLabs",
+     "label": "recommendation",
+     "excerpt": "Watch the Meshtastic YouTube videos on [The Comms Channel]([VIDEO])"
+    }
+   ]
+  },
+  {
+   "id": "J2QBQ45C0b0",
+   "title": "Ham Radio - Magnetic loop transmitting antenna overview and details.",
+   "channel": "Kevin Loughin",
+   "duration_sec": 808,
+   "published": "2015-04-26",
+   "summary": "Kevin Loughin (KB9RLW) gives a 13-minute overview of the magnetic loop transmitting antenna, explaining how it works and walking through its construction details. Hams point newcomers to it when they ask about compact HF antennas for portable or balcony use, and as an explanation of why mag loops need no ground or radials.",
+   "why_watch": "Get on HF from a balcony with a compact loop",
+   "topics": [
+    "antennas",
+    "hf",
+    "portable"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2017-01-18",
+   "last_mention": "2024-03-24",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1bm8faq/_/kwavf9m/",
+     "date": "2024-03-24",
+     "author": "G7VFY",
+     "label": "recommendation",
+     "excerpt": "VK3YE did some excellent videos."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/5onrm8/_/dcljkm7/",
+     "date": "2017-01-18",
+     "author": "Besca",
+     "label": "recommendation",
+     "excerpt": "KB9RLW has some great videos...[Watch this one]([VIDEO])"
+    }
+   ]
+  },
+  {
+   "id": "kgeOh55UYkg",
+   "title": "Ham Radio General Class License Course 2019-2023, Part 1",
+   "channel": "Ham Radio 2.0",
+   "duration_sec": 9503,
+   "published": "2020-09-26",
+   "summary": "First part of Ham Radio 2.0's recorded General class license course covering the 2019-2023 question pool, running over two and a half hours of exam material. Hams point people toward it when they are studying for General, and one commenter who passed with it notes the pool has since changed but the underlying information still holds.",
+   "why_watch": "A full class to help you upgrade to General",
+   "topics": [
+    "licensing",
+    "hf",
+    "propagation"
+   ],
+   "level": "General",
+   "exam_prep": "General",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2022-07-27",
+   "last_mention": "2023-08-26",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/16213nd/_/jxuul3u/",
+     "date": "2023-08-26",
+     "author": "JohnnyDarkside",
+     "label": "recommendation",
+     "excerpt": "[This]([VIDEO]) is the series I watched when I got mine, but this was before the July change so the questions won't be the same though it's all still the same information."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/w9g1nr/_/ihwm5xv/",
+     "date": "2022-07-27",
+     "author": "KE8RXQ",
+     "label": "recommendation",
+     "excerpt": "There are recordings of classes for both tech and general exams on YouTube that can help with studying."
+    }
+   ]
+  },
+  {
+   "id": "-iqpgtq7ct8",
+   "title": "HamRadioNow Episode 12B, Part 1 of 3 - D-STAR Training Session 2012 Dayton Hamvention BLIP.mp4",
+   "channel": "HamRadioNow",
+   "duration_sec": 3229,
+   "published": "2012-05-27",
+   "summary": "Part one of a three-part recorded D-STAR training session from the 2012 Dayton Hamvention, presented by HamRadioNow, covering how the D-STAR digital voice system works, including repeaters, linking, and radio routing settings. Hams point newcomers to the series as a thorough, instructive introduction that covers an amazing amount of D-STAR information in one place.",
+   "why_watch": "Get your D-STAR handheld talking to the world",
+   "topics": [
+    "repeaters",
+    "vhf-uhf",
+    "digital-modes"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2015-02-15",
+   "last_mention": "2020-01-30",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/ew8v55/_/fg0hkoo/",
+     "date": "2020-01-30",
+     "author": "manero64",
+     "label": "recommendation",
+     "excerpt": "I also found this series from Hamvention a few years ago to be pretty instructive: [VIDEO]"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/2vwswj/_/coltaci/",
+     "date": "2015-02-15",
+     "author": "mwilliams",
+     "label": "recommendation",
+     "excerpt": "There's a [3 part series on DSTAR from a big ham radio convention]([VIDEO]). It covers an amazing amount of information."
+    }
+   ]
+  },
+  {
+   "id": "FzRP1qdwPKw",
+   "title": "How To Contact The Voyager 2 Probe (PART 1)",
+   "channel": "EEVdiscover",
+   "duration_sec": 1216,
+   "published": "2017-04-15",
+   "summary": "Dave Jones of EEVblog visits the Deep Space Network's Canberra site and talks with operations supervisor Richard Stephenson about how the giant dishes, transmitters and receivers are used to communicate with Voyager 2. Commenters keep pointing to the series whenever Voyager is in the news, as an accessible behind-the-scenes look at the antennas, power levels and engineering behind deep-space radio links.",
+   "why_watch": "See the giant dishes that still talk to Voyager 2",
+   "topics": [
+    "satellites",
+    "antennas",
+    "propagation"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 6,
+   "first_mention": "2017-12",
+   "last_mention": "2024-04",
+   "sources": [
+    "hn"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=17696243",
+     "date": "2018-08",
+     "author": "misterS",
+     "label": "recommendation",
+     "excerpt": "Dave Jones of EEVBlog has a nice series of videos talking to Richard Stephenson, Operations Supervisor at the DSN's Canberra site."
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=35734942",
+     "date": "2023-04",
+     "author": "7373737373",
+     "label": "recommendation",
+     "excerpt": "Video recommendation: How To Contact The Voyager 2 Probe"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=15829001",
+     "date": "2017-12",
+     "author": "InclinedPlane",
+     "label": "neutral_reference",
+     "excerpt": "There are high gain antennas on both ends, and use of error correcting codes, as well as extremely high grade low noise amplifiers on the Earth side. The Voyagers have a 3.7m diameter parabolic…"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=40055455",
+     "date": "2024-04",
+     "author": "mk_stjames",
+     "label": "neutral_reference",
+     "excerpt": "Well, we need much more on our end than the power of a cellular signal- For instance, one of the support antenna dishes of the Deep Space Network is DSS-42 in Canberra... which is a 70 meter…"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=17678621",
+     "date": "2018-08",
+     "author": "ncol",
+     "label": "neutral_reference",
+     "excerpt": "Haven't worked in this field, but here are some episodes discussing the topic: [LINK] [LINK] [LINK] [LINK] [LINK] [VIDEO] I think what you are talking about is mostly just normal engineering in the…"
+    }
+   ]
+  },
+  {
+   "id": "tgH1UuKfT74",
+   "title": "How To Get Started In Ham Radio Easy",
+   "channel": "Ham Radio Crash Course",
+   "duration_sec": 3894,
+   "published": "2022-06-19",
+   "summary": "A 64-minute live-stream introduction from Ham Radio Crash Course walking newcomers through what amateur radio is and how to get started in the hobby. Redditors point absolute beginners to it as a good intro from a great channel, noting it's long but worth the time.",
+   "why_watch": "A friendly, complete starting point for brand-new hams",
+   "topics": [
+    "getting-started",
+    "licensing"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2022-11-23",
+   "last_mention": "2024-07-08",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/z2zc2w/_/ixje86k/",
+     "date": "2022-11-23",
+     "author": "ITSecDuder",
+     "label": "recommendation",
+     "excerpt": "(Good intro & Great channel)"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1dyf3m5/_/lc8hpv6/",
+     "date": "2024-07-08",
+     "author": "Northwest_Radio",
+     "label": "recommendation",
+     "excerpt": "Ham Radio Crash Course, has a great video introduction. It's rather long but worth to watch."
+    }
+   ]
+  },
+  {
+   "id": "INFu8jUHNhM",
+   "title": "How To Use Your RTL-SDR Locally With Just A Web Browser",
+   "channel": "Tech Minds",
+   "duration_sec": 358,
+   "published": "2025-03-02",
+   "summary": "Matt from Tech Minds demonstrates EA1ITI's browser-based RTL-SDR web app, which uses WebUSB to receive signals with no software installation, and walks through its settings. RTL-SDR.com and Hackaday highlighted it as a neat, install-free way to get a cheap dongle listening, and noted it needs a Chromium-type browser and the right USB drivers and may even work from a phone.",
+   "why_watch": "Start listening with an RTL-SDR, no software install needed",
+   "topics": [
+    "sdr"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2025-03-04",
+   "last_mention": "2025-03-23",
+   "sources": [
+    "hackaday",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/techminds-using-your-rtl-sdr-locally-with-just-a-web-browser/",
+     "date": "2025-03-04",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "In the video, Matt shows the software in action, receiving signals and he goes through the various settings available."
+    },
+    {
+     "source": "hackaday",
+     "url": "https://hackaday.com/2025/03/23/rtl-sdr-with-only-a-browser/",
+     "date": "2025-03-23",
+     "author": "Al Williams",
+     "label": "recommendation",
+     "excerpt": "Watching the video, you can see that it works quite well."
+    }
+   ]
+  },
+  {
+   "id": "Q0NLo1LSIKU",
+   "title": "How to Talk to Satellites Using Ham Radio Part 1 With Sean KX9X - Livestream",
+   "channel": "Ham Radio Crash Course",
+   "duration_sec": 4965,
+   "published": "2020-10-18",
+   "summary": "An 82-minute livestream interview with satellite operator Sean Kutzko KX9X on how to make contacts through amateur radio satellites, the first of a two-part series. Commenters point newcomers to it as a beginner-friendly entry into satellite work, including for those asking whether an HT and handheld Yagi can reach the ISS repeater.",
+   "why_watch": "Make contacts through space with just a handheld radio",
+   "topics": [
+    "satellites",
+    "vhf-uhf",
+    "antennas"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2022-07-19",
+   "last_mention": "2024-07-11",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1e0n817/_/lcnzc6c/",
+     "date": "2024-07-11",
+     "author": "Icy-Feedback7600",
+     "label": "recommendation",
+     "excerpt": "And some youtube videos"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/w2hm6d/_/iguba2a/",
+     "date": "2022-07-19",
+     "author": "wdetmar",
+     "label": "recommendation",
+     "excerpt": "This is a good YouTuber to follow. He interviews radio operators on their specialities."
+    }
+   ]
+  },
+  {
+   "id": "moBCOEiqiPs",
+   "title": "I built a light that can see radio waves",
+   "channel": "Rootkid",
+   "duration_sec": 417,
+   "published": "2026-01-22",
+   "summary": "Rootkid builds a wall-mounted art piece that uses a HackRF One SDR and a Raspberry Pi Zero to monitor 2.4 GHz and 5 GHz activity and drive a custom LED light bar in real time. RTL-SDR.com and Hackaday highlighted it as a creative SDR project that makes the invisible WiFi and Bluetooth traffic around a home visible.",
+   "why_watch": "See the invisible radio signals filling your home",
+   "topics": [
+    "sdr",
+    "electronics"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2026-01-27",
+   "last_mention": "2026-01-29",
+   "sources": [
+    "hackaday",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/spectrum-slit-a-wall-art-display-that-visualizes-wi-fi-activity-via-a-hackrf/",
+     "date": "2026-01-27",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "RootKid, who specializes in creating engineering-based art projects, has developed an interesting wall-mounted art display panel that visualizes Wi-Fi activity by using a HackRF"
+    },
+    {
+     "source": "hackaday",
+     "url": "https://hackaday.com/2026/01/29/buildling-a-light-that-reacts-to-radio-waves/",
+     "date": "2026-01-29",
+     "author": "Zoe Skyforest",
+     "label": "recommendation",
+     "excerpt": "The result is something that looks like a prop from some high-budget Hollywood sci-fi. It looks even better when the radio waves are popping and the lights are in action."
+    }
+   ]
+  },
+  {
+   "id": "vYX3y9GZDdg",
+   "title": "Learn About Shortwave Listening (SWL) for Beginners (#352)",
+   "channel": "David Casler Ask Dave",
+   "duration_sec": 2360,
+   "published": "2021-01-19",
+   "summary": "David Casler explains shortwave listening for beginners, walking through the shortwave bands, what can be heard there, and how SWL ties into amateur radio. Commenters point newcomers to it as a clear explanation of the shortwave bands and note that many hams got their start through listening.",
+   "why_watch": "Start hearing the world on shortwave before you transmit",
+   "topics": [
+    "hf",
+    "getting-started",
+    "propagation"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2023-02-07",
+   "last_mention": "2023-12-16",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/10w7vr9/_/j7lvzag/",
+     "date": "2023-02-07",
+     "author": "moonie42",
+     "label": "recommendation",
+     "excerpt": "David Casler has a great video on Youtube regarding Shortwave Listening (SWL) and it's ties to amateur radio."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/18ja3jd/_/kdmpr61/",
+     "date": "2023-12-16",
+     "author": "G7VFY",
+     "label": "recommendation",
+     "excerpt": "This one, explains the shortwave bands."
+    }
+   ]
+  },
+  {
+   "id": "nsVViATlKnw",
+   "title": "Lilygo T-Deck using M5Stick Launcher to Flash Meshtastic Fancy UI",
+   "channel": "PenTest",
+   "duration_sec": 912,
+   "published": "2024-11-13",
+   "summary": "A walkthrough of using the M5Stick Launcher on a LilyGO T-Deck to flash Meshtastic firmware with the Fancy UI from an SD card, and to switch between different firmwares such as Bruce. Commenters recommend it as a working alternative when the Meshtastic web flasher gets stuck, and like being able to swap UIs quickly.",
+   "why_watch": "Get your T-Deck running Meshtastic when the web flasher fails",
+   "topics": [
+    "mesh"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2025-01-23",
+   "last_mention": "2025-03-08",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1j192qm/_/mgqn6bf/",
+     "date": "2025-03-08",
+     "author": "The_Scarred_Man",
+     "label": "recommendation",
+     "excerpt": "Below is a link for a method that worked great for me and I found it to be a more useful utility allowing me to quickly swap between different UIs of choice."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/meshtastic/comments/1ho60jb/_/m8ppg6p/",
+     "date": "2025-01-23",
+     "author": "keepmathy",
+     "label": "recommendation",
+     "excerpt": "Here is YouTube video to help"
+    }
+   ]
+  },
+  {
+   "id": "uz15GmR_aXc",
+   "title": "Nathan Butts: A Novice's Guide to Radio Astronomy",
+   "channel": "Society of Amateur Radio Astronomers",
+   "duration_sec": 2361,
+   "published": "2024-04-10",
+   "summary": "A 39-minute SARA conference talk introducing amateur radio astronomy, covering why to take up the hobby, setting up a software defined radio receiver, and repurposing old computers for observing. Hackaday and RTL-SDR.com highlighted it as a beginner-friendly entry point, noting that radio astronomy works day or night in any weather and can be done with small dishes and low-cost SDRs.",
+   "why_watch": "Listen to the universe with a cheap SDR and dish",
+   "topics": [
+    "sdr",
+    "antennas"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2024-04-10",
+   "last_mention": "2024-04-17",
+   "sources": [
+    "hackaday",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/the-latest-talks-from-the-society-of-amateur-radio-astronomers/",
+     "date": "2024-04-10",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "Over on YouTube a bunch of new talks from the Society of Amateur Radio Astronomers (SARA) have recently been uploaded from their recent SARA Western Conference that was held in April 2024."
+    },
+    {
+     "source": "hackaday",
+     "url": "https://hackaday.com/2024/04/17/getting-started-with-radio-astronomy/",
+     "date": "2024-04-17",
+     "author": "Al Williams",
+     "label": "recommendation",
+     "excerpt": "if you’ve ever had the urge to dabble in radio astronomy, check out “ The Novice’s Guide to Amateur Radio Astronomy ,” a presentation at the 2024 conference of the Society of Amateur Radio…"
+    }
+   ]
+  },
+  {
+   "id": "1rCrfQUcXDI",
+   "title": "Pinging The Voyager 2 Probe (PART 2)",
+   "channel": "EEVdiscover",
+   "duration_sec": 781,
+   "published": "2017-04-15",
+   "summary": "Dave Jones of EEVblog visits the Deep Space Network's Canberra site, where operations supervisor Richard Stephenson shows how the giant dishes send commands to and receive faint signals from Voyager 2. Commenters point to it as part of a recommended series on deep space communication, noting details like Mars rovers with small antennas being harder to receive than Voyager.",
+   "why_watch": "See how giant dishes hear a whisper from interstellar space",
+   "topics": [
+    "satellites",
+    "propagation",
+    "antennas"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 3,
+   "first_mention": "2018-04",
+   "last_mention": "2023-04",
+   "sources": [
+    "hn"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=17696243",
+     "date": "2018-08",
+     "author": "misterS",
+     "label": "recommendation",
+     "excerpt": "Dave Jones of EEVBlog has a nice series of videos talking to Richard Stephenson, Operations Supervisor at the DSN's Canberra site."
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=35734942",
+     "date": "2023-04",
+     "author": "7373737373",
+     "label": "recommendation",
+     "excerpt": "Video recommendation"
+    },
+    {
+     "source": "hn",
+     "url": "https://news.ycombinator.com/item?id=16797685",
+     "date": "2018-04",
+     "author": "bsder",
+     "label": "neutral_reference",
+     "excerpt": "Deep space network video where they talk about the fact that Voyager I/II is NOT the toughest signal to grab"
+    }
+   ]
+  },
+  {
+   "id": "hc9L3Q69UiQ",
+   "title": "RTL SDR Digital Radio Scanning Priority and Groups With DSDPlus Fastlane Setup Tutorial",
+   "channel": "SignalsEverywhere",
+   "duration_sec": 544,
+   "published": "2019-04-02",
+   "summary": "A follow-up tutorial on configuring priority levels and talkgroup groups in DSDPlus Fastlane so a two-dongle RTL-SDR setup can follow specific agencies on a P25 trunked radio system. Commenters recommend it as an easy, user-friendly setup guide and praise DSD+ Fastlane as far ahead of alternatives like Unitrunker.",
+   "why_watch": "Tame a busy trunked system and follow just the agencies you want.",
+   "topics": [
+    "sdr",
+    "digital-modes"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2019-04-04",
+   "last_mention": "2019-04-29",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/signalseverywhere-setting-up-priority-and-groups-in-dsdplus-fastlane/",
+     "date": "2019-04-04",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "Now in his latest video Corrosive continues with the DSDPlus tutorial and this time explains how to set up priority and groups."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/bifx7w/_/em15a1e/",
+     "date": "2019-04-29",
+     "author": "E85WRX",
+     "label": "recommendation",
+     "excerpt": "Check out the YouTube video on it for setup, this is as easy and user friendly as it gets."
+    }
+   ]
+  },
+  {
+   "id": "aAbgbDVs_0A",
+   "title": "SDR++, The Cross-Platform bloat-free SDR software | A Hands on Overview",
+   "channel": "SignalsEverywhere",
+   "duration_sec": 906,
+   "published": "2021-08-10",
+   "summary": "Sarah of SignalsEverywhere gives a hands-on walkthrough of SDR++, the open-source, cross-platform receiver program for RTL-SDR and other SDRs, showing its basic usage and standout features. RTL-SDR.com praised it as one of the best SDR applications in a while, and Reddit users point newcomers to it when asking which SDR software to use.",
+   "why_watch": "Get your RTL-SDR listening with clean, free software",
+   "topics": [
+    "sdr",
+    "equipment"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2021-08-10",
+   "last_mention": "2021-08-14",
+   "sources": [
+    "reddit",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/signalseverywhere-testing-sdr-a-hands-on-overview/",
+     "date": "2021-08-10",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "Overall Sarah notes that she is very impressed with SDR++, praising it as one of the best SDR applications released in a while, and we agree."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/p406l1/_/h8wosh3/",
+     "date": "2021-08-14",
+     "author": "NefariousnessOk8603",
+     "label": "recommendation",
+     "excerpt": "Perhaps you could take a look to the YouTube channel of Sasha [SDR++]([VIDEO])"
+    }
+   ]
+  },
+  {
+   "id": "5ZQGSwKl8fY",
+   "title": "Setting up a Zumspot with attached 1.3 OLED Screen and Pi-Star image",
+   "channel": "Don Arnold",
+   "duration_sec": 982,
+   "published": "2019-01-09",
+   "summary": "A 16-minute walkthrough of assembling a ZUMspot hotspot board with a 1.3-inch OLED display on a Raspberry Pi and configuring it with the Pi-Star image for digital voice modes like D-STAR and DMR. Commenters point new hotspot builders to Don Arnold's setup videos, and one reported that following this guide with a cheap MMDVM hat and Pi Zero W made the build easy and working for under $50.",
+   "why_watch": "Build your own digital voice hotspot for under $50",
+   "topics": [
+    "repeaters",
+    "vhf-uhf",
+    "equipment"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2019-08-17",
+   "last_mention": "2020-09-14",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/goa55s/_/g58bpra/",
+     "date": "2020-09-14",
+     "author": "TurkeyDinner547",
+     "label": "recommendation",
+     "excerpt": "Installed Pi-Star and followed this YouTube video, with minor changes for the parts I bought. Piece of cake and works great for <$50."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/crg79j/_/ex6ffui/",
+     "date": "2019-08-17",
+     "author": "wscato",
+     "label": "recommendation",
+     "excerpt": "Watch Don Arnold's videos on youtube. He has a lot of setup videos for the ZumSpot and D74."
+    }
+   ]
+  },
+  {
+   "id": "lS1ZRMIYLjA",
+   "title": "Software Defined Radio with Pi-Pico",
+   "channel": "101 Things",
+   "duration_sec": 581,
+   "published": "2024-08-11",
+   "summary": "Jon Dawson of 101 Things builds a standalone software-defined receiver on a breadboard using a Raspberry Pi Pico, a Tayloe quadrature sampling detector, a rotary encoder and an OLED display, covering 0–30 MHz with AM, FM and SSB demodulation. Hackaday and RTL-SDR.com highlighted it as an affordable weekend project using through-hole parts, with mature open-source firmware, precompiled binaries and a 3D-printed case available.",
+   "why_watch": "Build your own HF receiver on a breadboard this weekend",
+   "topics": [
+    "sdr",
+    "electronics",
+    "hf"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2024-08-12",
+   "last_mention": "2024-08-13",
+   "sources": [
+    "hackaday",
+    "rtlsdr"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "rtlsdr",
+     "url": "https://www.rtl-sdr.com/pi-pico-rx-a-breadboard-software-defined-radio-based-on-the-rp2040-raspberry-pi-pico/",
+     "date": "2024-08-13",
+     "author": "rtl-sdr.com",
+     "label": "recommendation",
+     "excerpt": "He has also uploaded a YouTube video explaining and demonstrating the project which we've embedded below."
+    },
+    {
+     "source": "hackaday",
+     "url": "https://hackaday.com/2024/08/12/pi-pico-sdr-on-a-breadboard/",
+     "date": "2024-08-12",
+     "author": "Al Williams",
+     "label": "recommendation",
+     "excerpt": "[101 Things] shows you how to take a breadboard, a PI Pico, and two unremarkable chips to create a capable radio ."
+    }
+   ]
+  },
+  {
+   "id": "ctRMp03Aoq8",
+   "title": "The Best Ham Radio Antennas I Have Tested",
+   "channel": "Ham Radio Crash Course",
+   "duration_sec": 1576,
+   "published": "2025-04-15",
+   "summary": "Ham Radio Crash Course compares dual-band handheld (HT) antennas such as the Signal Stick, Nagoya NA-771 and RH-660S, testing which aftermarket whips actually improve performance over stock. Redditors point to it when new hams ask whether upgrading their HT antenna is worth it, since it offers real test results instead of forum opinion.",
+   "why_watch": "Find out which HT antenna upgrade actually helps",
+   "topics": [
+    "antennas",
+    "vhf-uhf",
+    "equipment"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2025-05-09",
+   "last_mention": "2026-06-07",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1tx3qoa/_/oq6p6f2/",
+     "date": "2026-06-07",
+     "author": "Powerful_Pirate_5049",
+     "label": "recommendation",
+     "excerpt": "Josh Nass, KI6NAZ from the Ham Radio Crash Course Youtube channel has done these field strength measurements for a lot of aftermarket HT antennas."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1kiwete/_/mri6ocp/",
+     "date": "2025-05-09",
+     "author": "ridge_runner56",
+     "label": "recommendation",
+     "excerpt": "Ham Radio Crash Course on YouTube did a test on HT dual band antennas three weeks ago. Check it out at"
+    }
+   ]
+  },
+  {
+   "id": "ZZxR-qtGH7c",
+   "title": "The Ultimate Guide to Affordable NVIS Comms (How to Build a Regional Off-Grid Radio Box)",
+   "channel": "Black Flag Civilian",
+   "duration_sec": 2588,
+   "published": "2026-01-04",
+   "summary": "A 43-minute guide to building a budget off-grid HF radio box for regional NVIS (near-vertical incidence skywave) communication, covering antenna setup, power, and keyboard digital modes like JS8Call. Hams point newcomers to it when they ask whether ham radio is practical in an emergency and want to see NVIS demonstrated.",
+   "why_watch": "Build an affordable box for regional off-grid HF contact",
+   "topics": [
+    "emergency",
+    "hf",
+    "antennas"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2026-01-07",
+   "last_mention": "2026-10-02",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1wvgvo4/_/pdbz6cj/",
+     "date": "2026-10-02",
+     "author": "smeeg123",
+     "label": "recommendation",
+     "excerpt": "Follow oh8stn & techprepper on YouTube if you don’t already."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1q6i1xw/_/ny9d9fm/",
+     "date": "2026-01-07",
+     "author": "IbGS9000",
+     "label": "recommendation",
+     "excerpt": "check out [this]([VIDEO]) video by Black Flag Civilian on Youtube about budget regional NVIS HF communication for SHTF scenarios, might be usefull"
+    }
+   ]
+  },
+  {
+   "id": "QQzmMOJvFfc",
+   "title": "WE are killing the amateur radio bands, and here is how to fix it (RFI)",
+   "channel": "Ham Radio Crash Course",
+   "duration_sec": 806,
+   "published": "2020-01-09",
+   "summary": "Ham Radio Crash Course explains how household electronics like LED lighting, chargers and appliances create radio frequency interference (RFI) that raises the noise floor on the amateur bands, and shows fixes such as clip-on ferrite chokes on power cables. Commenters point hams fighting S7 noise or washer and RGB-light hash on 40m to it as a practical starting point for finding and reducing noise at home.",
+   "why_watch": "Quiet your noisy shack with cheap ferrite chokes",
+   "topics": [
+    "antennas",
+    "hf",
+    "electronics"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2021-02-04",
+   "last_mention": "2022-06-30",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/vn2qqd/_/ieast5q/",
+     "date": "2022-06-30",
+     "author": "YggBjorn",
+     "label": "recommendation",
+     "excerpt": "Ham Radio Crash Course has a few YouTube videos explaining what it is and how to hopefully alleviate it."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/lcmbwv/_/gm0xr02/",
+     "date": "2021-02-04",
+     "author": "plentyofhacks",
+     "label": "recommendation",
+     "excerpt": "The popular YouTuber KI6NAZ has a great video about this."
+    }
+   ]
+  },
+  {
+   "id": "bYpTsersKX8",
+   "title": "Weather Satellite Tracking Software Setup",
+   "channel": "Tech Minds",
+   "duration_sec": 806,
+   "published": "2020-06-05",
+   "summary": "A Tech Minds tutorial on setting up Gpredict with SDR# to track NOAA weather satellites, including the plugin that steers the radio and corrects for Doppler shift during a pass. Redditors point beginners to it as a clear software walkthrough for receiving their first NOAA images with a cheap RTL-SDR.",
+   "why_watch": "Pull weather images straight from orbiting satellites",
+   "topics": [
+    "satellites",
+    "sdr"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2021-01-07",
+   "last_mention": "2021-08-05",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/oy8bvn/_/h7v6mz5/",
+     "date": "2021-08-05",
+     "author": "SpartanBeryl",
+     "label": "recommendation",
+     "excerpt": "If watching YouTube tutorials is more your style, Tech Minds has some great tutorials on the subject."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/RTLSDR/comments/krzq6u/_/gidyl61/",
+     "date": "2021-01-07",
+     "author": "Taubin",
+     "label": "recommendation",
+     "excerpt": "There's a great video by Tech Minds [on youtube]([VIDEO]) for setting up gpredict with sdrsharp."
+    }
+   ]
+  },
+  {
+   "id": "hJ45RgHDUNU",
+   "title": "Xiegu G90 Ham Radio Go Box & Solar Generator Build",
+   "channel": "Ham Radio Tube",
+   "duration_sec": 2116,
+   "published": "2020-09-22",
+   "summary": "Mike K8MRD builds a self-contained go-box around the Xiegu G90 HF transceiver, integrating a battery and solar charging so the radio can run from a single hard case. Hams planning emergency or POTA go-boxes point to it as a slick, practical template, and at least one builder based most of his own box on its design.",
+   "why_watch": "Build a grab-and-go HF station with its own power",
+   "topics": [
+    "portable",
+    "emergency",
+    "hf"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 2.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2025-07-26",
+   "last_mention": "2026-10-16",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1x7185r/_/ph3uv5j/",
+     "date": "2026-10-16",
+     "author": "Star-Light_1988",
+     "label": "recommendation",
+     "excerpt": "You can also watch the YouTube video from K8MRD on how he built his box. I got most of the ideas from his video and some changes in the components."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1ma26at/_/n5beu8r/",
+     "date": "2025-07-26",
+     "author": "BIGD0G29585",
+     "label": "recommendation",
+     "excerpt": "Here is one that Mike K8MRD did using a G90. It’s a pretty slick design since it includes a battery."
+    }
+   ]
+  },
+  {
+   "id": "6uJOXJt8BT4",
+   "title": "BaoFeng Ham Radio From Noob to Skilled in 60 minutes",
+   "channel": "Ham Radio Crash Course",
+   "duration_sec": 4455,
+   "published": "2021-10-10",
+   "summary": "A long, hands-on walkthrough from Ham Radio Crash Course on operating a Baofeng handheld, covering the keypad, menus, frequencies, and getting the radio onto the air. Redditors recommend it to people who just bought a Baofeng and are asking \"now what?\", praising how thoroughly it explains using the radio despite its length.",
+   "why_watch": "Go from confused to confident with your first Baofeng",
+   "topics": [
+    "vhf-uhf",
+    "getting-started",
+    "equipment"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 1.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2024-05-04",
+   "last_mention": "2024-05-04",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1cjscid/_/l2j9c2w/",
+     "date": "2024-05-04",
+     "author": "AleTheMemeDaddy",
+     "label": "recommendation",
+     "excerpt": "I would specifically recommend his Baofeng video on how to use it. It is a long one, but it does a great job at explaining how to use it:"
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/1cjscid/_/l2l0e1m/",
+     "date": "2024-05-04",
+     "author": "Decent-Apple9772",
+     "label": "recommendation",
+     "excerpt": "Here’s the introduction video that I always recommend."
+    }
+   ]
+  },
+  {
+   "id": "E4s1DfscSDE",
+   "title": "Ham Radio Repeaters Are NOT For Talking!!!!!!!!!!",
+   "channel": "HamRadioConcepts",
+   "duration_sec": 893,
+   "published": "2025-12-08",
+   "summary": "A commentary on repeater etiquette that pushes back on operators who scold others for holding conversations on repeaters instead of moving to simplex, and on the decline of on-air ragchewing. Commenters point new and returning hams to it as a reasonable take on why talking on repeaters is fine, noting the clickbait title is ironic and the content is far more measured.",
+   "why_watch": "Yes, you're allowed to actually talk on repeaters",
+   "topics": [
+    "repeaters",
+    "getting-started",
+    "vhf-uhf"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 1.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2025-12-16",
+   "last_mention": "2025-12-30",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1pzbgtz/_/nwp8klm/",
+     "date": "2025-12-30",
+     "author": "GassyDragon",
+     "label": "recommendation",
+     "excerpt": "Please tell me you had actually watched the video before posting the link."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/1pnnnzu/_/nubpgyr/",
+     "date": "2025-12-16",
+     "author": "BeninIdaho",
+     "label": "recommendation",
+     "excerpt": "yesterday I stumbled upon this guy on Youtube who has some salient thoughts on the subjects of people not talking anymore"
+    }
+   ]
+  },
+  {
+   "id": "cKbo9BeJWns",
+   "title": "The Worlds Fastest DX Commander",
+   "channel": "Matt Heere",
+   "duration_sec": 946,
+   "published": "2021-04-25",
+   "summary": "Matt Heere demonstrates fast deployment of a DX Commander Classic multiband vertical antenna for portable HF operating, with tips for getting it up and taken down in well under ten minutes. Commenters recommend it to operators who take the DX Commander to parks or Field Day and want practical tricks for faster setup and tidier radial handling.",
+   "why_watch": "Get a full-size HF vertical up in minutes",
+   "topics": [
+    "antennas",
+    "portable",
+    "hf"
+   ],
+   "level": "General",
+   "exam_prep": "none",
+   "score": 1.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2022-06-03",
+   "last_mention": "2022-06-28",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/vls2ol/_/ie1mc18/",
+     "date": "2022-06-28",
+     "author": "mgarvin22",
+     "label": "recommendation",
+     "excerpt": "This is a YouTube video that has some tips, he deploys in under 10."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/v47u2z/_/ib2s635/",
+     "date": "2022-06-03",
+     "author": "Wooden-Importance",
+     "label": "recommendation",
+     "excerpt": "Have you considered a DX Commander Classic?"
+    }
+   ]
+  },
+  {
+   "id": "3oTzoS-d4mg",
+   "title": "You Got a UV5R for SHTF - How to USE!",
+   "channel": "TheBillo313",
+   "duration_sec": 1014,
+   "published": "2023-12-02",
+   "summary": "A beginner walkthrough of the Baofeng UV-5R handheld that covers finding local frequencies (around 3:21) and programming the radio with CHIRP (around 6:17), including repeaters, NOAA weather, and receive-only public safety channels. All the Reddit recommendations come from the creator, who posted it repeatedly as an answer to new owners asking how to program their first Baofeng and what to listen to.",
+   "why_watch": "Get your new Baofeng programmed and listening tonight",
+   "topics": [
+    "vhf-uhf",
+    "getting-started",
+    "repeaters"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 1.0,
+   "people": 2,
+   "mention_count": 8,
+   "first_mention": "2023-12-04",
+   "last_mention": "2023-12-21",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/18kl3o2/_/kedgg8f/",
+     "date": "2023-12-21",
+     "author": "thebillo313",
+     "label": "recommendation",
+     "excerpt": "I created a YouTube video to help folks who are unfamiliar with uv5rs and want to get started. It covers programming and where to find frequencies."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/180z23d/_/kbztpuj/",
+     "date": "2023-12-04",
+     "author": "103Buster",
+     "label": "recommendation",
+     "excerpt": "I just uploaded a YouTube that answers a lot of your questions including how to program with Chirp. Let me know if it helps."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/18h7e6m/_/kedmvv5/",
+     "date": "2023-12-21",
+     "author": "thebillo313",
+     "label": "recommendation",
+     "excerpt": "Here is a link to my video, let me know if it helps feel free to comment with questions."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/18ia5e9/_/kedl1qi/",
+     "date": "2023-12-21",
+     "author": "thebillo313",
+     "label": "recommendation",
+     "excerpt": "I created a YouTube video about the uv5r, its capabilities as well as an introduction to programming radios using Chirp."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/HamRadio/comments/18ghd4i/_/kedym46/",
+     "date": "2023-12-21",
+     "author": "thebillo313",
+     "label": "recommendation",
+     "excerpt": "I created a YouTube video to help new Hams and hopefully answer a lot of your questions."
+    }
+   ]
+  },
+  {
+   "id": "qFsgJ2uLrzE",
+   "title": "ZumSpot Setup with Pi Star for the Kenwood TH-D74",
+   "channel": "Don Arnold",
+   "duration_sec": 1129,
+   "published": "2018-06-07",
+   "summary": "A walkthrough of configuring a ZumSpot hotspot running Pi-Star to work with the Kenwood TH-D74 handheld on D-STAR. Redditors asking about ZumSpot and D-STAR setup are pointed to Don Arnold's D74-focused videos as the go-to step-by-step guides.",
+   "why_watch": "Get your handheld onto D-STAR through your own hotspot",
+   "topics": [
+    "repeaters",
+    "vhf-uhf",
+    "equipment"
+   ],
+   "level": "Technician",
+   "exam_prep": "none",
+   "score": 1.0,
+   "people": 2,
+   "mention_count": 2,
+   "first_mention": "2019-08-17",
+   "last_mention": "2019-08-17",
+   "sources": [
+    "reddit"
+   ],
+   "embeddable": true,
+   "mentions": [
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/crg79j/_/ex6ffui/",
+     "date": "2019-08-17",
+     "author": "wscato",
+     "label": "recommendation",
+     "excerpt": "Watch Don Arnold's videos on youtube. He has a lot of setup videos for the ZumSpot and D74."
+    },
+    {
+     "source": "reddit",
+     "url": "https://www.reddit.com/r/amateurradio/comments/crg79j/_/ex6flxh/",
+     "date": "2019-08-17",
+     "author": "fb122017",
+     "label": "recommendation",
+     "excerpt": "Try this YouTube video. Don Arnold has several D74-based videos you might find useful."
+    }
+   ]
+  }
+ ]
+}
