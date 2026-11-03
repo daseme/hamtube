@@ -210,7 +210,7 @@
     const path = startPath();
     const watched = store.load();
     view.innerHTML = `<div class="prose"><h1>Start Here</h1>
-      <p class="intro">A short path for a new Technician, in order: what the hobby is, getting licensed, your first handheld and repeater contacts, then antennas and the modes you will meet next. Every video here is one hams repeatedly recommended to beginners. Mark them watched as you go. Ready for the next ticket? <a href="${buildHash({ exam: "General" })}">Videos that help with the General exam</a>.</p></div>
+      <p class="intro">A short path for a new Technician, in order: what the hobby is, getting licensed, your first handheld and repeater contacts, then antennas and the modes you will meet next. Every video here is one hams repeatedly recommended to beginners. Mark them watched as you go. Ready for the next ticket? <a href="${buildHash({ exam: "General" })}">Videos that help with the General exam</a>. Studying for either exam? <a href="https://daseme.github.io/ham-drills/" rel="noopener">Ham Drills</a> has practice questions for the Technician and General pools.</p></div>
       ${path.length ? `<ol class="path">${path.map((v, i) => `<li class="step">
         <span class="num">${i + 1}</span>
         <a class="thumb" href="#/watch/${esc(v.id)}"><img loading="lazy" src="${thumb(v.id)}" alt="">${v.duration_sec != null ? `<span class="dur">${fmtDur(v.duration_sec)}</span>` : ""}${watched[v.id] ? `<span class="seen">✓</span>` : ""}</a>
@@ -236,6 +236,7 @@
         <li>Metadata comes from the YouTube Data API; private and deleted videos are dropped.</li>
       </ol>
       <p>Labels and summaries are machine-written and spot-checked, not perfect. Every card links to the original discussions so you can judge for yourself.</p>
+      <p>HamTube is a companion to <a href="https://daseme.github.io/ham-drills/" rel="noopener">Ham Drills</a>, practice questions for the Technician and General exams. Watch here, then drill there.</p>
       <h2>Sources and attribution</h2>
       <ul>
         <li><a href="https://hackertube.org/data" rel="noopener">HackerTube export</a> by Andrej Karpathy, licensed <a href="https://opendatacommons.org/licenses/by/1-0/" rel="noopener">ODC-By 1.0</a>. HamTube's Hacker News mentions and their labels come from this export, filtered to radio topics.</li>
