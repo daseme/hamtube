@@ -1,0 +1,10 @@
+# Start Here path, in order. One YouTube id per line; ids not in the catalog are ignored.
+# Kept radio-agnostic on purpose: the subreddits skew Baofeng, our readers may not.
+975GvFhzxx8  # 1 HAM Radio Crash Course INTRO - WHY RADIO? (6 min) - what the hobby is
+DdzQS10JnHU  # 2 Ham Radio Technician Prep Intro 2022-2026 (3 min) - how the license works; pair with Ham Drills
+lssnwwWPvqc  # 3 "What Ham Radio Should I buy" Isn't the first question to ask (9 min) - think before buying
+jmOfkdhJL1U  # 4 How to get started on Ham Radio 2 Meter FM, Part 1 (K7AGE, 11 min) - repeaters, offsets, tones, any radio
+1ADqe6vt0xE  # 5 HRN 315: Do NOT Call CQ on Repeaters (24 min) - how people actually talk on the air
+Vxft-rYHGDw  # 6 2 Meter VHF Quarter Wave Ground Plane Antenna (7 min) - first antenna you build yourself
+L7RLJt4vZ_g  # 7 Listen To Almost All Radio Frequencies for $20 | RTL-SDR (9 min) - hear the bands you cannot transmit on yet
+xrLQYr_G5L8  # 8 EASY! ISS Crossband Repeater Contacts (14 min) - a first contact worth bragging about
