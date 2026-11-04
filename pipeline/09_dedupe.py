@@ -25,6 +25,21 @@ def similar(a: str, b: str) -> float:
     return SequenceMatcher(None, a, b).ratio()
 
 
+PART = re.compile(r"\b(?:part|pt|ep(?:isode)?|#)\.? ?(\d+)\b", re.I)
+
+
+def part_no(title: str) -> str | None:
+    """Series marker (part/episode number) so 'Part 1' and 'Part 2' never merge."""
+    m = PART.search(title or "")
+    return m.group(1) if m else None
+
+
+def word_diff(a: str, b: str) -> set:
+    """Words present in only one normalized title (ignoring tiny tokens)."""
+    wa, wb = set(a.split()), set(b.split())
+    return {w for w in wa ^ wb if len(w) > 1}
+
+
 def main() -> None:
     src = require_input(DATA / "08_described.jsonl", "dedupe")
     videos = sorted(read_jsonl(src), key=lambda v: -v["score"])
@@ -38,10 +53,14 @@ def main() -> None:
             tr = similar(nt, k["_nt"])
             if tr < 0.88:
                 continue
+            if part_no(v["title"]) != part_no(k["title"]):
+                continue  # different episodes of one series
+            if word_diff(nt, k["_nt"]):
+                continue  # a substantive word differs (FM vs Linear, HF vs VHF, 50 vs 500): not a re-upload
             same_channel = norm(v["channel"]) == norm(k["channel"]) or similar(norm(v["channel"]), norm(k["channel"])) > 0.8
             d1, d2 = v.get("duration_sec"), k.get("duration_sec")
             close_dur = d1 and d2 and abs(d1 - d2) / max(d1, d2) < 0.03
-            if same_channel or close_dur or tr > 0.96:
+            if same_channel or close_dur:  # identical titles on different channels with different lengths are different videos
                 dup_of = k["video_id"]
                 break
         if dup_of:

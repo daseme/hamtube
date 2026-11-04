@@ -239,8 +239,12 @@ def collect_reddit_archive(w: Writer, directory: str, subs: list[str]) -> None:
     files = [f for f in files if re.search(r"\.(jsonl|ndjson|json|zst)$", f)]
     titles: dict[str, str] = {}
     # pass 1: submissions (RS_*), so comments can pick up their thread title
+    def is_comments(f: str) -> bool:
+        b = os.path.basename(f).lower()
+        return b.startswith("rc_") or "_comments" in b
+
     for f in files:
-        if os.path.basename(f).upper().startswith("RC"):
+        if is_comments(f):
             continue
         log(f"reddit-archive: submissions in {os.path.basename(f)}")
         with open_archive(f) as fh:
@@ -256,7 +260,7 @@ def collect_reddit_archive(w: Writer, directory: str, subs: list[str]) -> None:
                 w.add(make_item("reddit", f"t3_{d['id']}", "https://www.reddit.com" + d.get("permalink", ""), d.get("author"),
                                 iso(d.get("created_utc")), d["title"], text, raw_html_for_ids=d.get("url") or ""))
     for f in files:
-        if not os.path.basename(f).upper().startswith("RC"):
+        if not is_comments(f):
             continue
         log(f"reddit-archive: comments in {os.path.basename(f)}")
         with open_archive(f) as fh:
@@ -267,7 +271,7 @@ def collect_reddit_archive(w: Writer, directory: str, subs: list[str]) -> None:
                     d = json.loads(line)
                 except json.JSONDecodeError:
                     continue
-                if (d.get("subreddit") or "").lower() not in subs_l:
+                if (d.get("subreddit") or "").lower() not in subs_l or (d.get("body") or "") in ("[deleted]", "[removed]"):
                     continue
                 link = (d.get("link_id") or "").replace("t3_", "")
                 w.add(make_item("reddit", f"t1_{d['id']}", "https://www.reddit.com" + d.get("permalink", f"/comments/{link}/_/{d['id']}/"),
@@ -299,7 +303,7 @@ def arctic_get(path: str, params: dict, limiter: RateLimiter, what: str) -> list
 WINDOW = 30 * 86400  # query one month at a time so the server has less to scan
 
 
-def collect_arctic(w: Writer, subs: list[str], since: str, limit: int | None, scan_posts: bool = True) -> None:
+def collect_arctic(w: Writer, subs: list[str], since: str, limit: int | None, scan_posts: bool = True, all_comments_since: str | None = None) -> None:
     """Reddit through the Arctic Shift archive API, no credentials.
 
     Comments: the API's word filter is fast for the token "youtube" (other
@@ -337,22 +341,29 @@ def collect_arctic(w: Writer, subs: list[str], since: str, limit: int | None, sc
                 for pid in chunk:
                     remember(pid, "")
 
-        passes = [("comments", {"body": "youtube", "fields": "id,author,body,created_utc,link_id,subreddit"})]
+        cfields = "id,author,body,created_utc,link_id,subreddit"
+        passes = [("comments", {"body": "youtube", "fields": cfields}, since_ts)]
+        if all_comments_since:
+            # every comment from this date, filtered locally for "yout": catches bare youtu.be links
+            all_ts = int(datetime.strptime(all_comments_since, "%Y-%m-%d").replace(tzinfo=timezone.utc).timestamp())
+            passes.append(("comments_all", {"fields": cfields}, all_ts))
         if scan_posts:
-            passes.append(("posts", {"fields": "id,title,author,created_utc,url,selftext,subreddit"}))
-        for kind, extra in passes:
+            passes.append(("posts", {"fields": "id,title,author,created_utc,url,selftext,subreddit"}, since_ts))
+        for kind, extra, start_ts in passes:
+            endpoint = "comments" if kind == "comments_all" else kind
             cursor_path = cache / f"{sub}_{kind}.cursor"
-            after = int(cursor_path.read_text()) if cursor_path.exists() else since_ts
+            after = int(cursor_path.read_text()) if cursor_path.exists() else start_ts
             pages, rows_total = 0, 0
             try:
               while after < now_ts:
                 before = min(after + WINDOW, now_ts + 60)
-                rows = arctic_get(f"{kind}/search", dict(extra, subreddit=sub, after=after, before=before, limit=100, sort="asc"), limiter, f"{kind} r/{sub}")
+                rows = arctic_get(f"{endpoint}/search", dict(extra, subreddit=sub, after=after, before=before, limit=100, sort="asc"), limiter, f"{kind} r/{sub}")
                 pages += 1
                 rows_total += len(rows)
-                if kind == "comments":
-                    resolve_titles({(d.get("link_id") or "").replace("t3_", "") for d in rows})
-                for d in rows:
+                keep = [d for d in rows if "yout" in (d.get("body") or "")] if kind == "comments_all" else rows
+                if kind != "posts":
+                    resolve_titles({(d.get("link_id") or "").replace("t3_", "") for d in keep})
+                for d in keep:
                     date = iso(d.get("created_utc"))
                     if kind == "posts":
                         remember(d["id"], d.get("title") or "")
@@ -549,14 +560,17 @@ def main() -> None:
     ap.add_argument("--reddit-archive", metavar="DIR", help="local Reddit archive dump (implies --reddit-via archive)")
     ap.add_argument("--reddit-since", default="2010-01-01", help="arctic: earliest post date to pull (YYYY-MM-DD)")
     ap.add_argument("--arctic-no-posts", action="store_true", help="arctic: comments only, skip the slow full post scan")
+    ap.add_argument("--arctic-all-comments-since", metavar="YYYY-MM-DD", default=None,
+                    help="arctic: also scan every comment from this date (no word filter) to catch bare youtu.be links; slow")
     ap.add_argument("--reddit-pages", type=int, default=10, help="search pages (x100 posts) per query and sort")
     ap.add_argument("--hn-since", default="2015-01", help="first month of the HN archive to scan (YYYY-MM)")
     ap.add_argument("--hn-until", default=None)
     ap.add_argument("--limit", type=int, default=None, help="per-source cap on threads/posts/pages, for testing")
+    ap.add_argument("--out", default=None, help="write items to this file instead of data/02_posts.jsonl (merge later)")
     args = ap.parse_args()
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    w = Writer(OUT)
+    w = Writer(Path(args.out) if args.out else OUT)
     subs = [s.strip() for s in args.subreddits.split(",") if s.strip()]
     for src in [s.strip() for s in args.sources.split(",") if s.strip()]:
         before = w.added
@@ -570,7 +584,7 @@ def main() -> None:
             elif via == "api":
                 collect_reddit(w, subs, args.reddit_pages, args.limit)
             else:
-                collect_arctic(w, subs, args.reddit_since, args.limit, scan_posts=not args.arctic_no_posts)
+                collect_arctic(w, subs, args.reddit_since, args.limit, scan_posts=not args.arctic_no_posts, all_comments_since=args.arctic_all_comments_since)
         elif src == "rtlsdr":
             collect_rtlsdr(w, args.limit)
         elif src == "hackaday":
